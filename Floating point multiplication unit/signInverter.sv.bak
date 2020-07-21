@@ -1,0 +1,5 @@
+module signInverter(input logic [15:0] number,output logic [15:0] minusnumber);
+
+assign minusnumber = -number;
+
+endmodule 

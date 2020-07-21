@@ -1,0 +1,3 @@
+module to32extender(logic input [14:0] number,logic output [31:0] out);
+assign out = {9'b000000000,number,8'b00000000};
+endmodule 

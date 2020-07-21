@@ -1,0 +1,7 @@
+  
+module Xor(input logic  signA, signB ,
+				output logic result);
+				
+				assign result = OpA^OpB;
+				
+endmodule 

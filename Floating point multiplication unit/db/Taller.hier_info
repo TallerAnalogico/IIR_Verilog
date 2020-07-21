@@ -1,0 +1,214 @@
+|mulUnitTest
+
+
+|mulUnitTest|mulUnit:UUT
+operA[0] => operA[0].IN1
+operA[1] => operA[1].IN1
+operA[2] => operA[2].IN1
+operA[3] => operA[3].IN1
+operA[4] => operA[4].IN1
+operA[5] => operA[5].IN1
+operA[6] => operA[6].IN1
+operA[7] => operA[7].IN1
+operB[0] => operB[0].IN1
+operB[1] => operB[1].IN1
+operB[2] => operB[2].IN1
+operB[3] => operB[3].IN1
+operB[4] => operB[4].IN1
+operB[5] => operB[5].IN1
+operB[6] => operB[6].IN1
+operB[7] => operB[7].IN1
+signA => signA.IN2
+signB => signB.IN2
+out[0] <= mul:multiplier.port2
+out[1] <= mul:multiplier.port2
+out[2] <= mul:multiplier.port2
+out[3] <= mul:multiplier.port2
+out[4] <= mul:multiplier.port2
+out[5] <= mul:multiplier.port2
+out[6] <= mul:multiplier.port2
+out[7] <= mul:multiplier.port2
+out[8] <= out[8].DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out[9].DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out[10].DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out[11].DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out[12].DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out[13].DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out[14].DB_MAX_OUTPUT_PORT_TYPE
+overflow <= overFlowDetector:over.port1
+sign <= xorgate:xorg.port2
+
+
+|mulUnitTest|mulUnit:UUT|signInverter:invertA
+number[0] => out.DATAA
+number[0] => Add0.IN9
+number[1] => out.DATAA
+number[1] => Add0.IN8
+number[2] => out.DATAA
+number[2] => Add0.IN7
+number[3] => out.DATAA
+number[3] => Add0.IN6
+number[4] => out.DATAA
+number[4] => Add0.IN5
+number[5] => out.DATAA
+number[5] => Add0.IN4
+number[6] => out.DATAA
+number[6] => Add0.IN3
+number[7] => out.DATAA
+number[7] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mulUnitTest|mulUnit:UUT|signInverter:invertB
+number[0] => out.DATAA
+number[0] => Add0.IN9
+number[1] => out.DATAA
+number[1] => Add0.IN8
+number[2] => out.DATAA
+number[2] => Add0.IN7
+number[3] => out.DATAA
+number[3] => Add0.IN6
+number[4] => out.DATAA
+number[4] => Add0.IN5
+number[5] => out.DATAA
+number[5] => Add0.IN4
+number[6] => out.DATAA
+number[6] => Add0.IN3
+number[7] => out.DATAA
+number[7] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mulUnitTest|mulUnit:UUT|extender:extenderA
+oper[0] => out[0].DATAIN
+oper[1] => out[1].DATAIN
+oper[2] => out[2].DATAIN
+oper[3] => out[3].DATAIN
+oper[4] => out[4].DATAIN
+oper[5] => out[5].DATAIN
+oper[6] => out[6].DATAIN
+oper[7] => out[7].DATAIN
+out[0] <= oper[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= oper[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= oper[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= oper[3].DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= oper[4].DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= oper[5].DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= oper[6].DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= oper[7].DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= <GND>
+out[9] <= <GND>
+out[10] <= <GND>
+out[11] <= <GND>
+out[12] <= <GND>
+out[13] <= <GND>
+out[14] <= <GND>
+
+
+|mulUnitTest|mulUnit:UUT|extender:extenderB
+oper[0] => out[0].DATAIN
+oper[1] => out[1].DATAIN
+oper[2] => out[2].DATAIN
+oper[3] => out[3].DATAIN
+oper[4] => out[4].DATAIN
+oper[5] => out[5].DATAIN
+oper[6] => out[6].DATAIN
+oper[7] => out[7].DATAIN
+out[0] <= oper[0].DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= oper[1].DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= oper[2].DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= oper[3].DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= oper[4].DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= oper[5].DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= oper[6].DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= oper[7].DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= <GND>
+out[9] <= <GND>
+out[10] <= <GND>
+out[11] <= <GND>
+out[12] <= <GND>
+out[13] <= <GND>
+out[14] <= <GND>
+
+
+|mulUnitTest|mulUnit:UUT|mul:multiplier
+OpA[0] => Mult0.IN14
+OpA[1] => Mult0.IN13
+OpA[2] => Mult0.IN12
+OpA[3] => Mult0.IN11
+OpA[4] => Mult0.IN10
+OpA[5] => Mult0.IN9
+OpA[6] => Mult0.IN8
+OpA[7] => Mult0.IN7
+OpA[8] => Mult0.IN6
+OpA[9] => Mult0.IN5
+OpA[10] => Mult0.IN4
+OpA[11] => Mult0.IN3
+OpA[12] => Mult0.IN2
+OpA[13] => Mult0.IN1
+OpA[14] => Mult0.IN0
+OpB[0] => Mult0.IN29
+OpB[1] => Mult0.IN28
+OpB[2] => Mult0.IN27
+OpB[3] => Mult0.IN26
+OpB[4] => Mult0.IN25
+OpB[5] => Mult0.IN24
+OpB[6] => Mult0.IN23
+OpB[7] => Mult0.IN22
+OpB[8] => Mult0.IN21
+OpB[9] => Mult0.IN20
+OpB[10] => Mult0.IN19
+OpB[11] => Mult0.IN18
+OpB[12] => Mult0.IN17
+OpB[13] => Mult0.IN16
+OpB[14] => Mult0.IN15
+result[0] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[1] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[2] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[3] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[4] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[5] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[6] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[7] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[8] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[9] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[10] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[11] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[12] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[13] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+result[14] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mulUnitTest|mulUnit:UUT|overFlowDetector:over
+OpA[0] => LessThan0.IN14
+OpA[1] => LessThan0.IN13
+OpA[2] => LessThan0.IN12
+OpA[3] => LessThan0.IN11
+OpA[4] => LessThan0.IN10
+OpA[5] => LessThan0.IN9
+OpA[6] => LessThan0.IN8
+result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|mulUnitTest|mulUnit:UUT|xorgate:xorg
+signA => result.IN0
+signB => result.IN1
+result <= result.DB_MAX_OUTPUT_PORT_TYPE
+
+

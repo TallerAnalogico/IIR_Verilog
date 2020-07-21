@@ -1,0 +1,17 @@
+module mulUnitTest;
+ logic  [7:0] operA,operB;
+ logic signA,signB;
+ logic [7:0] out;
+ logic overflow,sign;
+ mulUnit UUT(operA,operB,signA,signB,out,overflow,sign);
+ 
+ initial
+ begin
+ operA = 2
+ operB = 2
+ signA = 0
+ signB = 0
+ 
+ 
+ 
+ end

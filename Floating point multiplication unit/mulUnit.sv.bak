@@ -1,0 +1,16 @@
+module mulUnit(logic input [31:0] opA,opB,logic input signA,signB,output logic [31:0] out,output logic overflow);
+
+logic [31:0] multiplierOut;
+mul multiplier(opA,opB,multiplierOut);
+overFlowDetector over(multiplierOut[31:16],overflow);
+ 
+ always_comb
+ 
+ begin
+ case(overflow)
+ 1'b0 :  out = multiplierOut;
+ default : out = 32'b11111111111111111111111111111111;
+ endcase;
+ end
+ 
+endmodule 

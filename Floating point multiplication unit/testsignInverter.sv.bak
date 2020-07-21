@@ -1,0 +1,19 @@
+module testsignInverter;
+logic sign;
+logic [15:0] number;
+logic [15:0] out;
+ initial begin 
+ number = -2;
+ sign =1;
+ #10
+ number = 2;
+ sign = 0;
+ #10
+  number = 10;
+ sign = 0;
+ #10
+  number = 1;
+ sign = 1;
+ #10
+ end 
+ endmodule 

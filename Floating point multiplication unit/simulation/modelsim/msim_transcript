@@ -1,0 +1,118 @@
+# Reading C:/intelFPGA_lite/18.1/modelsim_ase/tcl/vsim/pref.tcl
+# do Taller_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 10.5b Lib Mapping Utility 2016.10 Oct  5 2016
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/xorgate.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:51 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/xorgate.sv 
+# -- Compiling module xorgate
+# 
+# Top level modules:
+# 	xorgate
+# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/mul.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:51 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/mul.sv 
+# -- Compiling module mul
+# 
+# Top level modules:
+# 	mul
+# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:51 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv 
+# -- Compiling module overFlowDetector
+# 
+# Top level modules:
+# 	overFlowDetector
+# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/mulUnit.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:51 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/mulUnit.sv 
+# -- Compiling module mulUnit
+# 
+# Top level modules:
+# 	mulUnit
+# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/signInverter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:51 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/signInverter.sv 
+# -- Compiling module signInverter
+# 
+# Top level modules:
+# 	signInverter
+# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/mulUnitTest.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:51 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/mulUnitTest.sv 
+# -- Compiling module mulUnitTest
+# 
+# Top level modules:
+# 	mulUnitTest
+# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/extender.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 09:21:51 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/extender.sv 
+# -- Compiling module extender
+# 
+# Top level modules:
+# 	extender
+# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.mulUnitTest
+# vsim work.mulUnitTest 
+# Start time: 09:22:06 on Jul 21,2020
+# Loading sv_std.std
+# Loading work.mulUnitTest
+# Loading work.mulUnit
+# Loading work.signInverter
+# Loading work.extender
+# Loading work.mul
+# Loading work.overFlowDetector
+# Loading work.xorgate
+# ** Warning: (vsim-3015) C:/Users/kenne/OneDrive/Desktop/Taller/mulUnit.sv(20): [PCDPC] - Port size (7) does not match connection size (8) for port 'OpA'. The port definition is at: C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /mulUnitTest/UUT/over File: C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv
+# Trace back: Error QStructure::sort: invalid command name ""
+#   <6:proc:11: ::QStructure::sort .main_pane.structure 7 ascending
+#   <5:eval:1: ::QStructure::structsort .main_pane.structure 7 ascending
+#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 7 ascending
+#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 7 ascending
+#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
+#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
+add wave -position end  sim:/mulUnitTest/signB
+add wave -position end  sim:/mulUnitTest/signA
+add wave -position end  sim:/mulUnitTest/sign
+add wave -position end  sim:/mulUnitTest/overflow
+add wave -position end  sim:/mulUnitTest/out
+add wave -position end  sim:/mulUnitTest/operB
+add wave -position end  sim:/mulUnitTest/operA
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: kenne  Hostname: DESKTOP-RK8LG59  ProcessID: 23212
+#           Attempting to use alternate WLF file "./wlftcjrsbd".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftcjrsbd
+run 50
+# End time: 09:29:37 on Jul 21,2020, Elapsed time: 0:07:31
+# Errors: 14, Warnings: 3

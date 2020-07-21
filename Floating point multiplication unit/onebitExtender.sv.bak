@@ -1,0 +1,3 @@
+module onebitExtender(input logic [6:0] num,output logic [7:0] out);
+assign out = {1'b0,oper};
+endmodule 
