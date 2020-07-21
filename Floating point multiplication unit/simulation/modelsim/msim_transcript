@@ -10,109 +10,229 @@
 # Copying C:/intelFPGA_lite/18.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
 # Modifying modelsim.ini
 # 
-# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/xorgate.sv}
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/xorgate.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:21:51 on Jul 21,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/xorgate.sv 
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/xorgate.sv 
 # -- Compiling module xorgate
 # 
 # Top level modules:
 # 	xorgate
-# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/mul.sv}
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mul.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:21:51 on Jul 21,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/mul.sv 
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mul.sv 
 # -- Compiling module mul
 # 
 # Top level modules:
 # 	mul
-# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv}
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:21:51 on Jul 21,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv 
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv 
 # -- Compiling module overFlowDetector
 # 
 # Top level modules:
 # 	overFlowDetector
-# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/mulUnit.sv}
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:21:51 on Jul 21,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/mulUnit.sv 
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv 
 # -- Compiling module mulUnit
 # 
 # Top level modules:
 # 	mulUnit
-# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/signInverter.sv}
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/signInverter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:21:51 on Jul 21,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/signInverter.sv 
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/signInverter.sv 
 # -- Compiling module signInverter
 # 
 # Top level modules:
 # 	signInverter
-# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/mulUnitTest.sv}
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/extender.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:21:51 on Jul 21,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/mulUnitTest.sv 
-# -- Compiling module mulUnitTest
-# 
-# Top level modules:
-# 	mulUnitTest
-# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Taller {C:/Users/kenne/OneDrive/Desktop/Taller/extender.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 09:21:51 on Jul 21,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Taller" C:/Users/kenne/OneDrive/Desktop/Taller/extender.sv 
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/extender.sv 
 # -- Compiling module extender
 # 
 # Top level modules:
 # 	extender
-# End time: 09:21:51 on Jul 21,2020, Elapsed time: 0:00:00
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv 
+# -- Compiling module onebitExtender
+# 
+# Top level modules:
+# 	onebitExtender
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/to32extender.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/to32extender.sv 
+# -- Compiling module to32extender
+# 
+# Top level modules:
+# 	to32extender
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/high.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/high.sv 
+# -- Compiling module high
+# 
+# Top level modules:
+# 	high
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv 
+# -- Compiling module bit32Adder
+# 
+# Top level modules:
+# 	bit32Adder
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mid.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mid.sv 
+# -- Compiling module mid
+# 
+# Top level modules:
+# 	mid
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/low.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:20 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/low.sv 
+# -- Compiling module low
+# 
+# Top level modules:
+# 	low
+# End time: 15:48:20 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:21 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv 
+# -- Compiling module floatingpPointMult
+# 
+# Top level modules:
+# 	floatingpPointMult
+# End time: 15:48:21 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/leftShifter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:21 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/leftShifter.sv 
+# -- Compiling module leftShifter
+# 
+# Top level modules:
+# 	leftShifter
+# End time: 15:48:21 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/rightShifter.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:21 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/rightShifter.sv 
+# -- Compiling module rightShifter
+# 
+# Top level modules:
+# 	rightShifter
+# End time: 15:48:21 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/outSelector.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:21 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/outSelector.sv 
+# -- Compiling module outSelector
+# 
+# Top level modules:
+# 	outSelector
+# End time: 15:48:21 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:21 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv 
+# -- Compiling module bit32OverflowDetector
+# 
+# Top level modules:
+# 	bit32OverflowDetector
+# End time: 15:48:21 on Jul 21,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -sv -work work +incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto\ Taller/IIR_Verilog/Floating\ point\ multiplication\ unit {C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:21 on Jul 21,2020
+# vlog -reportprogress 300 -sv -work work "+incdir+C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit" C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv 
+# -- Compiling module floatingpPointMultTest
+# 
+# Top level modules:
+# 	floatingpPointMultTest
+# End time: 15:48:21 on Jul 21,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
-vsim work.mulUnitTest
-# vsim work.mulUnitTest 
-# Start time: 09:22:06 on Jul 21,2020
+vsim work.floatingpPointMultTest
+# vsim work.floatingpPointMultTest 
+# Start time: 15:48:28 on Jul 21,2020
 # Loading sv_std.std
-# Loading work.mulUnitTest
+# Loading work.floatingpPointMultTest
+# Loading work.floatingpPointMult
+# Loading work.low
 # Loading work.mulUnit
 # Loading work.signInverter
 # Loading work.extender
 # Loading work.mul
 # Loading work.overFlowDetector
 # Loading work.xorgate
-# ** Warning: (vsim-3015) C:/Users/kenne/OneDrive/Desktop/Taller/mulUnit.sv(20): [PCDPC] - Port size (7) does not match connection size (8) for port 'OpA'. The port definition is at: C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /mulUnitTest/UUT/over File: C:/Users/kenne/OneDrive/Desktop/Taller/overFlowDetector.sv
-# Trace back: Error QStructure::sort: invalid command name ""
-#   <6:proc:11: ::QStructure::sort .main_pane.structure 7 ascending
-#   <5:eval:1: ::QStructure::structsort .main_pane.structure 7 ascending
-#   <4:eval:1: ::namespace inscope ::QStructure {structsort .main_pane.structure} 7 ascending
-#   >3:proc:26: ::.main_pane.structure.interior.cs.body.struct sort 7 ascending
-#   >2:proc:10: ::.main_pane.structure.interior.cs.body.struct _initializeSortColumn
-#   <1:eval:1: ::namespace inscope ::vsimwidgets::Hierarchy {::.main_pane.structure.interior.cs.body.struct _initializeSortColumn}
-add wave -position end  sim:/mulUnitTest/signB
-add wave -position end  sim:/mulUnitTest/signA
-add wave -position end  sim:/mulUnitTest/sign
-add wave -position end  sim:/mulUnitTest/overflow
-add wave -position end  sim:/mulUnitTest/out
-add wave -position end  sim:/mulUnitTest/operB
-add wave -position end  sim:/mulUnitTest/operA
+# Loading work.to32extender
+# Loading work.mid
+# Loading work.onebitExtender
+# Loading work.bit32Adder
+# Loading work.high
+# Loading work.leftShifter
+# Loading work.rightShifter
+# Loading work.bit32OverflowDetector
+# Loading work.outSelector
+# ** Warning: (vsim-3015) C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv(20): [PCDPC] - Port size (7) does not match connection size (8) for port 'OpA'. The port definition is at: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /floatingpPointMultTest/float/lowUnit/multiplicationUnit/over File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv
+# ** Warning: (vsim-3015) C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv(20): [PCDPC] - Port size (7) does not match connection size (8) for port 'OpA'. The port definition is at: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /floatingpPointMultTest/float/midUnit/multiplicationUnit1/over File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv
+# ** Warning: (vsim-3015) C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv(20): [PCDPC] - Port size (7) does not match connection size (8) for port 'OpA'. The port definition is at: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /floatingpPointMultTest/float/midUnit/multiplicationUnit2/over File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv
+# ** Warning: (vsim-3015) C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv(20): [PCDPC] - Port size (7) does not match connection size (8) for port 'OpA'. The port definition is at: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv(1).
+#    Time: 0 ps  Iteration: 0  Instance: /floatingpPointMultTest/float/highUnit/multiplicationUnit/over File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv
+add wave -position end  sim:/floatingpPointMultTest/signC
+add wave -position end  sim:/floatingpPointMultTest/signA
+add wave -position end  sim:/floatingpPointMultTest/out
+add wave -position end  sim:/floatingpPointMultTest/D
+add wave -position end  sim:/floatingpPointMultTest/C
+add wave -position end  sim:/floatingpPointMultTest/B
+add wave -position end  sim:/floatingpPointMultTest/A
 # ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
 #           File in use by: kenne  Hostname: DESKTOP-RK8LG59  ProcessID: 23212
-#           Attempting to use alternate WLF file "./wlftcjrsbd".
+#           Attempting to use alternate WLF file "./wlfti1iwhj".
 # ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
-#           Using alternate file: ./wlftcjrsbd
+#           Using alternate file: ./wlfti1iwhj
 run 50
-# End time: 09:29:37 on Jul 21,2020, Elapsed time: 0:07:31
-# Errors: 14, Warnings: 3
+# End time: 15:50:19 on Jul 21,2020, Elapsed time: 0:01:51
+# Errors: 0, Warnings: 6

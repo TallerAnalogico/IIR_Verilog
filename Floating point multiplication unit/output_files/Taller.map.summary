@@ -1,7 +1,7 @@
-Analysis & Elaboration Status : Successful - Tue Jul 21 09:16:12 2020
+Analysis & Elaboration Status : Successful - Tue Jul 21 15:48:13 2020
 Quartus Prime Version : 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 Revision Name : Taller
-Top-level Entity Name : mulUnitTest
+Top-level Entity Name : floatingpPointMultTest
 Family : Cyclone V
 Logic utilization (in ALMs) : N/A until Partition Merge
 Total registers : N/A until Partition Merge
