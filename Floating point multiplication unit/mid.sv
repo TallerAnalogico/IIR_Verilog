@@ -1,9 +1,9 @@
-module mid(input logic [6:0] A,C,input logic [7:0] B,D,
-input logic signA,signC, output logic [31:0] out);
+module mid(input logic [14:0] A,C,input logic [15:0] B,D,
+input logic signA,signC, output logic [63:0] out);
 
-logic [7:0] interA,interC;
-logic [15:0] nonextendedAXD,nonextendedBXC;
-logic [31:0] atimesd,ctimesb;
+logic [15:0] interA,interC;
+logic [31:0] nonextendedAXD,nonextendedBXC;
+logic [63:0] atimesd,ctimesb;
 logic positive = 1'b0 ;
 logic ignore,ignore2,ignore3,ignore4; // señales no importantes
 onebitExtender extendA(A,signA,interA); //Expande un bit el A con signo

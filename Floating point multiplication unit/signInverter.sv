@@ -1,5 +1,5 @@
-module signInverter(input logic [7:0] number,input logic sign,output logic [7:0] out);
-logic [7:0] negNumber;
+module signInverter(input logic [15:0] number,input logic sign,output logic [15:0] out);
+logic [15:0] negNumber;
 assign negNumber = -number;
 
 always_comb

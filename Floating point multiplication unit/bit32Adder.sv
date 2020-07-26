@@ -1,3 +1,3 @@
-module bit32Adder( input logic [31:0] operA,operB,output logic [31:0] out);
+module bit32Adder( input logic [63:0] operA,operB,output logic [63:0] out);
 assign out = operA+operB;
 endmodule 

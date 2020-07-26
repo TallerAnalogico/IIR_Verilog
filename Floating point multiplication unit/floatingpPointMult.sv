@@ -1,13 +1,13 @@
-module floatingpPointMult(input logic [6:0] A,C, input logic [7:0] B,D ,input  logic  signA,signC,
-output logic [15:0] out);
+module floatingpPointMult(input logic [14:0] A,C, input logic [15:0] B,D ,input  logic  signA,signC,
+output logic [31:0] out);
 
-logic [31:0] lowOut,midOut,highOut;
+logic [63:0] lowOut,midOut,highOut;
 
-logic [31:0] shiftedHigh,shiftedLow;
+logic [63:0] shiftedHigh,shiftedLow;
 
-logic [7:0] signedSecondSumOut;
+logic [15:0] signedSecondSumOut;
 
-logic [31:0] fistSumOut,secondSumOut;
+logic [63:0] fistSumOut,secondSumOut;
 
 logic sign,highoverflow,overflow;
 
@@ -25,7 +25,7 @@ bit32Adder firstAdd(shiftedHigh,midOut,fistSumOut);
 
 bit32Adder secondAdd(fistSumOut,shiftedLow,secondSumOut);
 
-signInverter invert(secondSumOut[23:16],sign,signedSecondSumOut);
+signInverter invert(secondSumOut[47:32],sign,signedSecondSumOut);
 
 bit32OverflowDetector detector(secondSumOut,overflow);
 

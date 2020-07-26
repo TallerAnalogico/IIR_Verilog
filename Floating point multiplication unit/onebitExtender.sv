@@ -1,4 +1,4 @@
-module onebitExtender(input logic [6:0] num, input logic sign ,output logic [7:0] out);
+module onebitExtender(input logic [14:0] num, input logic sign ,output logic [15:0] out);
 always_comb
 begin
 case(sign)

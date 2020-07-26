@@ -1,5 +1,5 @@
 Analysis & Elaboration report for Taller
-Tue Jul 21 16:08:22 2020
+Sun Jul 26 15:30:41 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -12,7 +12,7 @@ Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
   4. Analysis & Elaboration Settings
   5. Port Connectivity Checks: "floatingpPointMult:float|mid:midUnit|mulUnit:multiplicationUnit2"
   6. Port Connectivity Checks: "floatingpPointMult:float|mid:midUnit|mulUnit:multiplicationUnit1"
-  7. Port Connectivity Checks: "floatingpPointMult:float|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over"
+  7. Port Connectivity Checks: "floatingpPointMult:float|low:lowUnit|to32extender:resultExtender"
   8. Port Connectivity Checks: "floatingpPointMult:float|low:lowUnit|mulUnit:multiplicationUnit"
   9. Port Connectivity Checks: "floatingpPointMult:float"
  10. Analysis & Elaboration Messages
@@ -41,7 +41,7 @@ refer to the applicable agreement for further details.
 +-----------------------------------------------------------------------------+
 ; Analysis & Elaboration Summary                                              ;
 +-------------------------------+---------------------------------------------+
-; Analysis & Elaboration Status ; Successful - Tue Jul 21 16:08:22 2020       ;
+; Analysis & Elaboration Status ; Successful - Sun Jul 26 15:30:41 2020       ;
 ; Quartus Prime Version         ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name                 ; Taller                                      ;
 ; Top-level Entity Name         ; floatingpPointMultTest                      ;
@@ -181,25 +181,26 @@ refer to the applicable agreement for further details.
 +----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
-+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "floatingpPointMult:float|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over"                                                                                          ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port ; Type  ; Severity ; Details                                                                                                                                                                          ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; OpA  ; Input ; Warning  ; Input port expression (8 bits) is wider than the input port (7 bits) it drives.  The 1 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-+------+-------+----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++----------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "floatingpPointMult:float|low:lowUnit|to32extender:resultExtender" ;
++----------------+-------+----------+----------------------------------------------------------+
+; Port           ; Type  ; Severity ; Details                                                  ;
++----------------+-------+----------+----------------------------------------------------------+
+; number[31..16] ; Input ; Info     ; Stuck at GND                                             ;
++----------------+-------+----------+----------------------------------------------------------+
 
 
-+--------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "floatingpPointMult:float|low:lowUnit|mulUnit:multiplicationUnit"                        ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                             ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
-; signA    ; Input  ; Info     ; Stuck at GND                                                                        ;
-; signB    ; Input  ; Info     ; Stuck at GND                                                                        ;
-; overflow ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-; sign     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
-+----------+--------+----------+-------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "floatingpPointMult:float|low:lowUnit|mulUnit:multiplicationUnit"                                                               ;
++----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                                                                    ;
++----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
+; signA    ; Input  ; Info     ; Stuck at GND                                                                                                               ;
+; signB    ; Input  ; Info     ; Stuck at GND                                                                                                               ;
+; out      ; Output ; Warning  ; Output or bidir port (32 bits) is wider than the port expression (16 bits) it drives; bit(s) "out[31..16]" have no fanouts ;
+; overflow ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                        ;
+; sign     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                        ;
++----------+--------+----------+----------------------------------------------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------+
@@ -217,7 +218,7 @@ refer to the applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus Prime Analysis & Elaboration
     Info: Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
-    Info: Processing started: Tue Jul 21 16:08:13 2020
+    Info: Processing started: Sun Jul 26 15:30:33 2020
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off Taller -c Taller --analysis_and_elaboration
 Warning (18236): Number of processors has not been specified which may cause overloading on shared machines.  Set the global assignment NUM_PARALLEL_PROCESSORS in your QSF to an appropriate value for best performance.
 Info (20030): Parallel compilation is enabled and will use 12 of the 12 processors detected
@@ -278,10 +279,10 @@ Info (12021): Found 1 design units, including 1 entities, in source file bit32ov
 Info (12021): Found 1 design units, including 1 entities, in source file floatingppointmulttest.sv
     Info (12023): Found entity 1: floatingpPointMultTest File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 1
 Info (12127): Elaborating entity "floatingpPointMultTest" for the top level hierarchy
-Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(18): truncated value with size 32 to match size of target (7) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 18
-Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(24): truncated value with size 32 to match size of target (7) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 24
-Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(31): truncated value with size 32 to match size of target (7) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 31
-Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(32): truncated value with size 32 to match size of target (7) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 32
+Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(18): truncated value with size 32 to match size of target (15) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 18
+Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(24): truncated value with size 32 to match size of target (15) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 24
+Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(31): truncated value with size 32 to match size of target (15) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 31
+Warning (10230): Verilog HDL assignment warning at floatingpPointMultTest.sv(32): truncated value with size 32 to match size of target (15) File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 32
 Info (12128): Elaborating entity "floatingpPointMult" for hierarchy "floatingpPointMult:float" File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMultTest.sv Line: 7
 Info (12128): Elaborating entity "low" for hierarchy "floatingpPointMult:float|low:lowUnit" File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv Line: 14
 Info (12128): Elaborating entity "mulUnit" for hierarchy "floatingpPointMult:float|low:lowUnit|mulUnit:multiplicationUnit" File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/low.sv Line: 5
@@ -299,14 +300,11 @@ Info (12128): Elaborating entity "leftShifter" for hierarchy "floatingpPointMult
 Info (12128): Elaborating entity "rightShifter" for hierarchy "floatingpPointMult:float|rightShifter:lowShifter" File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv Line: 22
 Info (12128): Elaborating entity "bit32OverflowDetector" for hierarchy "floatingpPointMult:float|bit32OverflowDetector:detector" File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv Line: 30
 Info (12128): Elaborating entity "outSelector" for hierarchy "floatingpPointMult:float|outSelector:outGen" File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv Line: 32
-Warning (12020): Port "ordered port 0" on the entity instantiation of "over" is connected to a signal of width 8. The formal width of the signal in the module is 7.  The extra bits will be ignored. File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv Line: 20
-Warning (12020): Port "ordered port 0" on the entity instantiation of "over" is connected to a signal of width 8. The formal width of the signal in the module is 7.  The extra bits will be ignored. File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv Line: 20
-Warning (12020): Port "ordered port 0" on the entity instantiation of "over" is connected to a signal of width 8. The formal width of the signal in the module is 7.  The extra bits will be ignored. File: C:/Users/kenne/OneDrive/Desktop/Proyecto Taller/IIR_Verilog/Floating point multiplication unit/mulUnit.sv Line: 20
 Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
-Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 9 warnings
-    Info: Peak virtual memory: 4759 megabytes
-    Info: Processing ended: Tue Jul 21 16:08:22 2020
-    Info: Elapsed time: 00:00:09
-    Info: Total CPU time (on all processors): 00:00:18
+Info: Quartus Prime Analysis & Elaboration was successful. 0 errors, 6 warnings
+    Info: Peak virtual memory: 4763 megabytes
+    Info: Processing ended: Sun Jul 26 15:30:41 2020
+    Info: Elapsed time: 00:00:08
+    Info: Total CPU time (on all processors): 00:00:16
 
 
