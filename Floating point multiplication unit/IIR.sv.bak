@@ -1,0 +1,12 @@
+module IIR #(
+				parameter b1,
+				parameter b0,
+				parameter a0)
+				
+				(input logic clk, 
+				input logic [63:0]x_i, 
+				output logic [63:0] y_o ):
+
+assign y_o = x_i;
+
+endmodule

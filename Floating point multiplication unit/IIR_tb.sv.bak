@@ -1,0 +1,25 @@
+module IIR_tb();
+
+ logic clk;
+ logic [63:0]x_i;
+ logic [63:0] b1;
+ logic [63:0] b0;
+ logic [63:0] a0;
+ logic [63:0] y_o;
+ integer[15:0]num1=16'b111111111111110;
+ integer[15:0]num2=16'b111111111111110;
+ integer[15:0]num3=16'b111111111111110;
+
+IIR DUT(.*);
+
+
+initial 
+	begin
+	clk=0;
+	#1;
+	clk=1;
+	
+	num3=num1+num2;
+	end
+
+endmodule

@@ -38,7 +38,7 @@
 
 set_global_assignment -name FAMILY "Cyclone V"
 set_global_assignment -name DEVICE 5CSEMA5F31C6
-set_global_assignment -name TOP_LEVEL_ENTITY floatingpPointMultTest
+set_global_assignment -name TOP_LEVEL_ENTITY IIR_tb
 set_global_assignment -name ORIGINAL_QUARTUS_VERSION 18.1.0
 set_global_assignment -name PROJECT_CREATION_TIME_DATE "20:27:39  JULY 18, 2020"
 set_global_assignment -name LAST_QUARTUS_VERSION "18.1.0 Lite Edition"
@@ -51,6 +51,8 @@ set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
 set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
+set_global_assignment -name SYSTEMVERILOG_FILE fixedPointAdder.sv
+set_global_assignment -name SYSTEMVERILOG_FILE fixedPointAdder_tb.sv
 set_global_assignment -name SYSTEMVERILOG_FILE xorgate.sv
 set_global_assignment -name SYSTEMVERILOG_FILE Top.sv
 set_global_assignment -name SYSTEMVERILOG_FILE mul.sv
@@ -79,6 +81,10 @@ set_global_assignment -name SYSTEMVERILOG_FILE rightShifter.sv
 set_global_assignment -name SYSTEMVERILOG_FILE outSelector.sv
 set_global_assignment -name SYSTEMVERILOG_FILE bit32OverflowDetector.sv
 set_global_assignment -name SYSTEMVERILOG_FILE floatingpPointMultTest.sv
+set_global_assignment -name SYSTEMVERILOG_FILE IIR.sv
+set_global_assignment -name SYSTEMVERILOG_FILE IIR_tb.sv
+set_global_assignment -name SYSTEMVERILOG_FILE simpleRegister.sv
+set_global_assignment -name SYSTEMVERILOG_FILE simpleRegister_tb.sv
 set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
 set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
 set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top

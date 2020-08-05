@@ -1,0 +1,7 @@
+module fixPointAdder#(parameter integer_bits=16,
+							parameter frac_bits=16)
+							(input logic[31:0] a_i,
+							input logic[31:0] b_i,
+							output logic[31:0] x_o,
+							)
+							

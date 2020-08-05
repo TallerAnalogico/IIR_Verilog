@@ -1,0 +1,21 @@
+module fixedPointAdder_tb();
+logic[31:0] a_i,b_i,x_o;
+logic overflow_o;
+
+
+fixedPointAdder DUT(.*);
+
+
+initial 
+	begin
+	a_i=32'b00000000000000011000000000000000;
+	b_i=32'b11111111111111001100000000000000;
+	#2;
+	$display("result: %b", x_o);
+	#2;
+
+	end
+
+
+
+endmodule

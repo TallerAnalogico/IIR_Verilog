@@ -1,0 +1,20 @@
+module fixPointAdder_tb();
+logic[31:0] a_i,b_i,x_o;
+
+
+
+fixPointAdder DUT(.*);
+
+
+initial 
+	begin
+	a_i=
+	b_i=
+	$display("result: %b", x_o);
+	#2;
+
+	end
+
+
+
+endmodule
