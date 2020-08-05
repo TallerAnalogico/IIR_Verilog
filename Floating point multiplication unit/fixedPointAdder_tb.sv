@@ -4,7 +4,7 @@ logic[N_BITS-1:0] a_i,b_i,c_o;
 logic overflow_o;
 
 
-fixedPointAdder #(.N_BITS(32))DUT(.*);
+fixedPointAdder #(.N_BITS(32)) DUT(.*);
 
 
 initial 

@@ -1,4 +1,4 @@
-module fixPointAdder#(parameter N_BITS=32)
+module fixedPointAdder#(parameter N_BITS=32)
 							(input logic[N_BITS-1:0] a_i,
 							input logic[N_BITS-1:0] b_i,
 							output logic[N_BITS-1:0] c_o,

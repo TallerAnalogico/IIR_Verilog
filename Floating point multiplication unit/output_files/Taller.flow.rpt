@@ -1,5 +1,5 @@
 Flow report for Taller
-Tue Aug  4 20:42:42 2020
+Wed Aug  5 13:51:40 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,10 +40,10 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Tue Aug  4 20:42:42 2020       ;
+; Flow Status                 ; Successful - Wed Aug  5 13:51:40 2020       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; Taller                                      ;
-; Top-level Entity Name       ; simpleRegister_tb                           ;
+; Top-level Entity Name       ; IIR                                         ;
 ; Family                      ; Cyclone V                                   ;
 ; Device                      ; 5CSEMA5F31C6                                ;
 ; Timing Models               ; Final                                       ;
@@ -62,31 +62,31 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/04/2020 20:42:32 ;
+; Start date & time ; 08/05/2020 13:51:30 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Taller              ;
 +-------------------+---------------------+
 
 
-+-----------------------------------------------------------------------------------------------------------------------------------+
-; Flow Non-Default Global Settings                                                                                                  ;
-+-------------------------------------+----------------------------------------+---------------+-------------------+----------------+
-; Assignment Name                     ; Value                                  ; Default Value ; Entity Name       ; Section Id     ;
-+-------------------------------------+----------------------------------------+---------------+-------------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 79554451191335.159659535111206         ; --            ; --                ; --             ;
-; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --                ; eda_simulation ;
-; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --                ; --             ;
-; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --                ; eda_simulation ;
-; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --                ; --             ;
-; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --                ; --             ;
-; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; simpleRegister_tb ; Top            ;
-; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; simpleRegister_tb ; Top            ;
-; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; simpleRegister_tb ; Top            ;
-; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --                ; --             ;
-; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --                ; --             ;
-; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --                ; --             ;
-; TOP_LEVEL_ENTITY                    ; simpleRegister_tb                      ; Taller        ; --                ; --             ;
-+-------------------------------------+----------------------------------------+---------------+-------------------+----------------+
++-----------------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                            ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 79554451191335.159665709014449         ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
+; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;
+; MAX_CORE_JUNCTION_TEMP              ; 85                                     ; --            ; --          ; --             ;
+; MIN_CORE_JUNCTION_TEMP              ; 0                                      ; --            ; --          ; --             ;
+; PARTITION_COLOR                     ; -- (Not supported for targeted family) ; --            ; IIR         ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; -- (Not supported for targeted family) ; --            ; IIR         ; Top            ;
+; PARTITION_NETLIST_TYPE              ; -- (Not supported for targeted family) ; --            ; IIR         ; Top            ;
+; POWER_BOARD_THERMAL_MODEL           ; None (CONSERVATIVE)                    ; --            ; --          ; --             ;
+; POWER_PRESET_COOLING_SOLUTION       ; 23 MM HEAT SINK WITH 200 LFPM AIRFLOW  ; --            ; --          ; --             ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                           ; --            ; --          ; --             ;
+; TOP_LEVEL_ENTITY                    ; IIR                                    ; Taller        ; --          ; --             ;
++-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------+
@@ -94,8 +94,8 @@ refer to the applicable agreement for further details.
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 ; Module Name            ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
-; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 1238 MB             ; 00:00:28                           ;
-; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:28                           ;
+; Analysis & Elaboration ; 00:00:11     ; 1.0                     ; 1250 MB             ; 00:00:29                           ;
+; Total                  ; 00:00:11     ; --                      ; --                  ; 00:00:29                           ;
 +------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
 
