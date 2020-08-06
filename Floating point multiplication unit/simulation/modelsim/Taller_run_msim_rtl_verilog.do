@@ -25,4 +25,5 @@ vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoF
 vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv}
 vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
 vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv}
+vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv}
 

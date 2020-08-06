@@ -23,34 +23,44 @@ simpleRegister#(.N_BITS(N_BITS)) sRegister(
 								.data_o(w1)
 								);
 
+								
+fixPointMult mult1( .a_i(w0), .b_i(b0_i),.c_o(w0_b0));
 
- floatingpPointMult mult1(	.A(w0[30:16]),
-									.B(w0[15:0]),
-									.C(b0_i[30:16]),
-									.D(b0_i[15:0]) ,
+fixPointMult mult2( .a_i(w1), .b_i(a),.c_o(w1_a));
 
-									.signA(w0[31]),
-									.signC(b0_i[31]),
-									.out(w0_b0));
-									
- floatingpPointMult mult2(	.A(w1[30:16]),
-									.B(w1[15:0]),
-									.C(a[30:16]),
-									.D(a[15:0]) ,
+fixPointMult mult3( .a_i(w1), .b_i(b1_i),.c_o(w1_b1));
 
-									.signA(w1[31]),
-									.signC(a[31]),
-									.out(w1_a));
-									
-									
- floatingpPointMult mult3(	.A(w1[30:16]),
-									.B(w1[15:0]),
-									.C(b1_i[30:16]),
-									.D(b1_i[15:0]) ,
 
-									.signA(w1[31]),
-									.signC(b1_i[31]),
-									.out(w1_b1));
+
+
+
+// floatingpPointMult mult1(	.A(w0[30:16]),
+//									.B(w0[15:0]),
+//									.C(b0_i[30:16]),
+//									.D(b0_i[15:0]) ,
+//
+//									.signA(w0[31]),
+//									.signC(b0_i[31]),
+//									.out(w0_b0));
+//									
+// floatingpPointMult mult2(	.A(w1[30:16]),
+//									.B(w1[15:0]),
+//									.C(a[30:16]),
+//									.D(a[15:0]) ,
+//
+//									.signA(w1[31]),
+//									.signC(a[31]),
+//									.out(w1_a));
+//									
+//									
+// floatingpPointMult mult3(	.A(w1[30:16]),
+//									.B(w1[15:0]),
+//									.C(b1_i[30:16]),
+//									.D(b1_i[15:0]) ,
+//
+//									.signA(w1[31]),
+//									.signC(b1_i[31]),
+//									.out(w1_b1));
 									
 									
 									
