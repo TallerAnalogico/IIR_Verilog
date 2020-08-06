@@ -5,15 +5,19 @@ logic [63:0] lowOut,midOut,highOut;
 
 logic [63:0] shiftedHigh,shiftedLow;
 
-logic [15:0] signedSecondSumOut;
+logic [15:0] signedSecondSumOut,B2,D2;
 
 logic [63:0] fistSumOut,secondSumOut;
 
 logic sign,highoverflow,overflow;
 
-low lowUnit(B,D,lowOut);
+signInverter invert2(B,signA,B2);
 
-mid midUnit( A,C, B,D, signA,signC, midOut);
+signInverter invert3(D,signB,D2);
+
+low lowUnit(B2,D2,lowOut);
+
+mid midUnit( A,C, B2,D2, signA,signC, midOut);
 
 high highUnit(  A,C,signA,signC,highOut,sign,highoverflow);
 
