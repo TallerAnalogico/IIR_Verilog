@@ -13,7 +13,7 @@ logic sign,highoverflow,overflow;
 
 signInverter invert2(B,signA,B2);
 
-signInverter invert3(D,signB,D2);
+signInverter invert3(D,signC,D2);
 
 low lowUnit(B2,D2,lowOut);
 
