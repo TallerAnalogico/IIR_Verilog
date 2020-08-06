@@ -1,6 +1,7 @@
 module IIR_tb();
 parameter N_BITS=	32;
- logic clk=0;
+ logic clk=0,reset=0;
+ 
  logic [N_BITS-1:0]	x_i;
  logic [N_BITS-1:0] 	b1_i;
  logic [N_BITS-1:0] 	b0_i;
@@ -11,10 +12,7 @@ parameter N_BITS=	32;
  
  logic [N_BITS-1:0] counter_check = 0;
  
- logic[N_BITS-1:0]num1=16'b1111111111101011;
- logic[N_BITS-1:0]num2=16'b1111111111101011;
- logic[N_BITS-1:0]num	=16'b1111111111101011;
- 
+
  
  reg [N_BITS-1:0] in_ram [0:10000];
  integer f;
@@ -29,20 +27,22 @@ always@(negedge clk)
 begin
 x_i = in_ram[counter_check];
 counter_check=counter_check+1;
-$fwrite(f,"%b\n",   y_o);
+$fwrite(f,"32b%b\n",   y_o);
 
 end
 
 
 initial begin
 		offset_i=	32'b00000000000000000000000000000000;
-		b1_i=		32'b00000000000000010000000000000000;
-		b0_i=		32'b00000000000000010000000000000000;
-		a_i=		32'b00000000000000000000000000000000;
-		
-		$readmemb("/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/in_ram.txt", in_ram);
-		f = $fopen("output.txt","w");
+		b1_i=			32'b00000000000000001000000000000000;
+		b0_i=			32'b00000000000000001000000000000000;
+		a_i=			32'b00000000000000000000000000000000;
+		reset=0;
+		$readmemb("/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_2k.txt", in_ram);
+		f = $fopen("/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/respuesta 2K.txt","w");
       $fwrite(f,"INICIO:\n");
+		#10;
+		reset=1;
 		#10000;
 		$fclose(f);  
 		$finish;

@@ -1,5 +1,6 @@
 module IIR 
 				(input logic clk, 
+				input logic reset,
 				input logic [31:0] x_i,
 				input logic [31:0] b1_i,
 				input logic [31:0] b0_i, 

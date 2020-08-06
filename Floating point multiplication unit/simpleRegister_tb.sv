@@ -1,6 +1,6 @@
 module simpleRegister_tb();
 parameter N_BITS=6;
-logic clk;
+logic clk, reset;
 logic [N_BITS-1:0] data_i;
 logic [N_BITS-1:0] data_o;
 				

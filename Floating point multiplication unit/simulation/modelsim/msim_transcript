@@ -11,228 +11,218 @@
 # 
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:44 on Aug 05,2020
+# Start time: 20:50:47 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv 
 # -- Compiling module fixedPointAdder
 # 
 # Top level modules:
 # 	fixedPointAdder
-# End time: 13:51:44 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:47 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:44 on Aug 05,2020
+# Start time: 20:50:47 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv 
 # -- Compiling module xorgate
 # 
 # Top level modules:
 # 	xorgate
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:01
+# End time: 20:50:47 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv 
 # -- Compiling module mul
 # 
 # Top level modules:
 # 	mul
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv 
 # -- Compiling module overFlowDetector
 # 
 # Top level modules:
 # 	overFlowDetector
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mulUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mulUnit.sv 
 # -- Compiling module mulUnit
 # 
 # Top level modules:
 # 	mulUnit
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/signInverter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/signInverter.sv 
 # -- Compiling module signInverter
 # 
 # Top level modules:
 # 	signInverter
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/extender.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/extender.sv 
 # -- Compiling module extender
 # 
 # Top level modules:
 # 	extender
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv 
 # -- Compiling module onebitExtender
 # 
 # Top level modules:
 # 	onebitExtender
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/to32extender.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/to32extender.sv 
 # -- Compiling module to32extender
 # 
 # Top level modules:
 # 	to32extender
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/high.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/high.sv 
 # -- Compiling module high
 # 
 # Top level modules:
 # 	high
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv 
 # -- Compiling module bit32Adder
 # 
 # Top level modules:
 # 	bit32Adder
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mid.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mid.sv 
 # -- Compiling module mid
 # 
 # Top level modules:
 # 	mid
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv 
 # -- Compiling module low
 # 
 # Top level modules:
 # 	low
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv 
 # -- Compiling module floatingpPointMult
 # 
 # Top level modules:
 # 	floatingpPointMult
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv 
 # -- Compiling module leftShifter
 # 
 # Top level modules:
 # 	leftShifter
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv 
 # -- Compiling module rightShifter
 # 
 # Top level modules:
 # 	rightShifter
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv 
 # -- Compiling module outSelector
 # 
 # Top level modules:
 # 	outSelector
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv 
 # -- Compiling module bit32OverflowDetector
 # 
 # Top level modules:
 # 	bit32OverflowDetector
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
 # -- Compiling module IIR
 # 
 # Top level modules:
 # 	IIR
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 13:51:45 on Aug 05,2020
+# Start time: 20:50:48 on Aug 05,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv 
 # -- Compiling module simpleRegister
 # 
 # Top level modules:
 # 	simpleRegister
-# End time: 13:51:45 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:50:48 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # 
 vlog -reportprogress 300 -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:02:39 on Aug 05,2020
+# Start time: 20:51:34 on Aug 05,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 14:02:39 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -reportprogress 300 -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:02:43 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 14:02:43 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:51:34 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
 # vsim work.IIR_tb 
-# Start time: 14:02:47 on Aug 05,2020
+# Start time: 20:51:38 on Aug 05,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -255,414 +245,58 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
-# ** Error: (vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(32): Unresolved reference to 'outs'.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): [PCDPC] - Port size (32) does not match connection size (33) for port 'data_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv(3).
+# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
 #    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): [PCDPC] - Port size (32) does not match connection size (33) for port 'data_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(51): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(51): [PCDPC] - Port size (32) does not match connection size (33) for port 'c_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'c_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(64): [PCDPC] - Port size (32) does not match connection size (33) for port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(64): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# Error loading design
-# End time: 14:02:47 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 18
-# Error opening /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# Path name '/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv' doesn't exist.
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 14:13:57 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Error: (vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(32): Unresolved reference to 'outs'.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): [PCDPC] - Port size (32) does not match connection size (33) for port 'data_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): [PCDPC] - Port size (32) does not match connection size (33) for port 'data_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(51): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(51): [PCDPC] - Port size (32) does not match connection size (33) for port 'c_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'c_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(64): [PCDPC] - Port size (32) does not match connection size (33) for port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(64): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# Error loading design
-# End time: 14:13:57 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 18
-# Error opening /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# Path name '/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv' doesn't exist.
-# A time value could not be extracted from the current line
-# Error opening /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# Path name '/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv' doesn't exist.
-# Error opening /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# Path name '/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv' doesn't exist.
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:16:32 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 14:16:32 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 14:16:34 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Error: (vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(32): Unresolved reference to 'outs'.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): [PCDPC] - Port size (32) does not match connection size (33) for port 'data_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): [PCDPC] - Port size (32) does not match connection size (33) for port 'data_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (32) does not match connection size (33) for port 'out'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(51): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(51): [PCDPC] - Port size (32) does not match connection size (33) for port 'c_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (33) for port 'c_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(64): [PCDPC] - Port size (32) does not match connection size (33) for port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(2).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(64): [PCDPC] - Port size (32) does not match connection size (33) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# Error loading design
-# End time: 14:16:35 on Aug 05,2020, Elapsed time: 0:00:01
-# Errors: 1, Warnings: 18
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:16:47 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 14:16:47 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 14:16:49 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Error: (vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(32): Unresolved reference to 'outs'.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# Error loading design
-# End time: 14:16:49 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 6
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 14:16:50 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Error: (vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(32): Unresolved reference to 'outs'.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(29): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult2 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'A'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(39): [PCDPC] - Port size (15) does not match connection size (16) for port 'C'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv(1).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/mult3 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
-# Error loading design
-# End time: 14:16:50 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 6
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:17:37 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 14:17:37 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:17:39 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 14:17:40 on Aug 05,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 14:17:41 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Error: (vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(32): Unresolved reference to 'outs'.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# Error loading design
-# End time: 14:17:41 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# Error opening /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv
-# Path name '/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim/(vsim-3043) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv' doesn't exist.
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 14:18:25 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 14:18:25 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 14:18:26 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
+# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
 add wave -position end sim:/IIR_tb/*
 run
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 6 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/in_ram.txt". (Current address [5], address range [0:4])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(29)
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 10002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_20k.txt". (Current address [10001], address range [0:10000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(41)
 #    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
-# num3: 00000000000000011111111111010110
-# LFSR xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(36)
-#    Time: 25 ps  Iteration: 0  Instance: /IIR_tb
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(48)
+#    Time: 10010 ps  Iteration: 0  Instance: /IIR_tb
 # 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 36
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 48
 vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:06:28 on Aug 05,2020
+# Start time: 20:56:08 on Aug 05,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 15:06:28 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:06:31 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 15:06:31 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 20:56:08 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
-# End time: 15:06:39 on Aug 05,2020, Elapsed time: 0:48:13
-# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+# End time: 20:56:11 on Aug 05,2020, Elapsed time: 0:04:33
+# Errors: 0, Warnings: 3, Suppressed Warnings: 10
 # vsim work.IIR_tb 
-# Start time: 15:06:39 on Aug 05,2020
+# Start time: 20:56:11 on Aug 05,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -685,34 +319,32 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'x_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b1_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b0_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(5).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'offset'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'y_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(9).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# Error loading design
-# End time: 15:06:39 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
+# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
+# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 10002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_2k.txt". (Current address [10001], address range [0:10000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(41)
+#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
+run
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(48)
+#    Time: 10010 ps  Iteration: 0  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 48
 vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:06:42 on Aug 05,2020
+# Start time: 21:05:54 on Aug 05,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 15:06:42 on Aug 05,2020, Elapsed time: 0:00:00
+# End time: 21:05:54 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
+# End time: 21:05:57 on Aug 05,2020, Elapsed time: 0:09:46
+# Errors: 0, Warnings: 3, Suppressed Warnings: 10
 # vsim work.IIR_tb 
-# Start time: 15:06:44 on Aug 05,2020
+# Start time: 21:05:57 on Aug 05,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -735,523 +367,58 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'x_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b1_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b0_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(5).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'offset'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'y_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(9).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# Error loading design
-# End time: 15:06:44 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
+# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
+#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
+# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
+run
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 10002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_2k.txt". (Current address [10001], address range [0:10000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(41)
+#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
+run
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(48)
+#    Time: 10010 ps  Iteration: 0  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 48
+vlog -reportprogress 300 -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:08:27 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
+# Start time: 21:39:56 on Aug 05,2020
+# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder_tb.sv 
+# -- Compiling module fixedPointAdder_tb
 # 
 # Top level modules:
-# 	IIR
-# End time: 15:08:27 on Aug 05,2020, Elapsed time: 0:00:00
+# 	fixedPointAdder_tb
+# End time: 21:39:56 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:08:31 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 15:08:31 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 15:08:34 on Aug 05,2020
+vsim work.fixedPointAdder_tb
+# End time: 21:40:06 on Aug 05,2020, Elapsed time: 0:34:09
+# Errors: 0, Warnings: 3, Suppressed Warnings: 10
+# vsim work.fixedPointAdder_tb 
+# Start time: 21:40:06 on Aug 05,2020
 # Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
+# Loading work.fixedPointAdder_tb
 # Loading work.fixedPointAdder
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'x_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b1_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b0_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(5).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'offset'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'y_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(9).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# Error loading design
-# End time: 15:08:34 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 0
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
+add wave -position end sim:/fixedPointAdder_tb/*
+run
+# result: 11111111111111111100000000000001
+# A time value could not be extracted from the current line
+# A time value could not be extracted from the current line
+vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:08:37 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
+# Start time: 21:42:36 on Aug 05,2020
+# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder_tb.sv 
+# -- Compiling module fixedPointAdder_tb
 # 
 # Top level modules:
-# 	IIR_tb
-# End time: 15:08:37 on Aug 05,2020, Elapsed time: 0:00:00
+# 	fixedPointAdder_tb
+# End time: 21:42:36 on Aug 05,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:08:43 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 15:08:43 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 15:08:44 on Aug 05,2020
+vsim work.fixedPointAdder_tb
+# End time: 21:42:39 on Aug 05,2020, Elapsed time: 0:02:33
+# Errors: 0, Warnings: 0, Suppressed Warnings: 10
+# vsim work.fixedPointAdder_tb 
+# Start time: 21:42:39 on Aug 05,2020
 # Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
+# Loading work.fixedPointAdder_tb
 # Loading work.fixedPointAdder
-# ** Error: (vsim-3694) The implicit port connection (.*) did not find a matching port, net, variable or interface instance in IIR_tb for port 'offset'.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): [TFMPC] - Too few port connections. Expected 7, found 6.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'x_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b1_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b0_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(5).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'y_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(9).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): [TFMPC] - Missing connection for port 'offset'.
-# Error loading design
-# End time: 15:08:44 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 2
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:09:04 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 15:09:04 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:09:07 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 15:09:07 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 15:09:09 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'x_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b1_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(4).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'b0_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(5).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'a_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(6).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'offset_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(7).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Error: (vsim-8378) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(22): Port size (32) does not match connection size (2) for implicit .name connection port 'y_o'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(9).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (1) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-# Error loading design
-# End time: 15:09:09 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 6, Warnings: 1
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:09:58 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 15:09:58 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:09:59 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 15:09:59 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# vsim work.IIR_tb 
-# Start time: 15:10:01 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (1) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-add wave -position end sim:/IIR_tb/*
+add wave -position end sim:/fixedPointAdder_tb/*
 run
-add wave -position end sim:/IIR_tb/DUT/adder3/*
-restart
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (1) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position end sim:/IIR_tb/DUT/sRegister/*
-add wave -position end sim:/IIR_tb/DUT/mult1/*
-restart
-# ** Warning: (vsim-3015) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57): [PCDPC] - Port size (32) does not match connection size (1) for port 'b_i'. The port definition is at: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv(3).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/adder1 File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position end sim:/IIR_tb/DUT/mult2/*
-run
-run
-run
-run
-run
-run
-add wave -position end sim:/IIR_tb/DUT/adder1/*
-add wave -position end sim:/IIR_tb/DUT/adder2/*
-run
-run
-run
-run
-run
-run
-run
-run
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:22:39 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 15:22:39 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:22:43 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 15:22:43 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:22:45 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 15:22:45 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 15:22:50 on Aug 05,2020, Elapsed time: 0:12:49
-# Errors: 0, Warnings: 3, Suppressed Warnings: 30
-# vsim work.IIR_tb 
-# Start time: 15:22:50 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-add wave -position end sim:/IIR_tb/DUT/adder1/*
-run
-add wave -position end sim:/IIR_tb/*
-run
-run
-run
-run
-add wave -position end sim:/IIR_tb/DUT/mult1/*
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-add wave -position end sim:/IIR_tb/DUT/adder2/*
-run
-run
-run
-run
-add wave -position end sim:/IIR_tb/DUT/adder1/*
-run
-run
-run
-run
-run
-run
-run
-run
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:28:09 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# ** Error (suppressible): (vlog-12003) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): Variable 'a' written by continuous and procedural assignments. See /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(15). 
-# End time: 15:28:09 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# /opt/altera/18.1/modelsim_ase/linuxaloem/vlog failed.
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:28:36 on Aug 05,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 15:28:36 on Aug 05,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 15:28:41 on Aug 05,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 15:28:42 on Aug 05,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 15:28:45 on Aug 05,2020, Elapsed time: 0:05:55
-# Errors: 1, Warnings: 0, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 15:28:45 on Aug 05,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.floatingpPointMult
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.signInverter
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3839) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): Variable '/IIR_tb/DUT/w1', driven via a port connection, is multiply driven. See /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(19).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3839) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): Variable '/IIR_tb/DUT/w0', driven via a port connection, is multiply driven. See /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(63).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3839) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): Variable '/IIR_tb/DUT/w0_b0', driven via a port connection, is multiply driven. See /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(26).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3839) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): Variable '/IIR_tb/DUT/w1_b1', driven via a port connection, is multiply driven. See /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(45).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3839) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): Variable '/IIR_tb/DUT/w1_a', driven via a port connection, is multiply driven. See /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(35).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-# ** Warning: (vsim-3839) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(13): Variable '/IIR_tb/DUT/x', driven via a port connection, is multiply driven. See /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(57).
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
-add wave -position end sim:/IIR_tb/DUT/mult1/*
-add wave -position end sim:/IIR_tb/DUT/mult2/*
-run
-add wave -position end sim:/IIR_tb/DUT/adder1/*
-run
-add wave -position end sim:/IIR_tb/DUT/adder2/*
-run
-add wave -position end sim:/IIR_tb/DUT/sRegister/*
-run
+# result: 11111111111111111101100110011001
