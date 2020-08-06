@@ -10,7 +10,7 @@ cModel Technology
 Z0 d/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simulation/modelsim
 vbit32Adder
 Z1 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
-Z2 !s110 1596688951
+Z2 !s110 1596735138
 !i10b 1
 !s100 D9<GF:lafENZGUJl_IDmg2
 IEZh_@ILmRF=omAImRnc]>0
@@ -26,7 +26,7 @@ Z5 OV;L;10.5b;63
 r1
 !s85 0
 31
-Z6 !s108 1596688951.000000
+Z6 !s108 1596735138.000000
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv|
 !i113 1
@@ -36,7 +36,7 @@ Z9 tCvgOpt 0
 nbit32@adder
 vbit32OverflowDetector
 R1
-Z10 !s110 1596688952
+R2
 !i10b 1
 !s100 ?SKNNRjUK<8;h9<62cPU81
 IJd]W0bIj384FWe?eVJG;c3
@@ -52,7 +52,7 @@ R5
 r1
 !s85 0
 31
-Z11 !s108 1596688952.000000
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv|
 !i113 1
@@ -87,7 +87,7 @@ R8
 R9
 vfixedPointAdder
 R1
-R2
+Z10 !s110 1596735137
 !i10b 1
 !s100 jA2Ho<IbMeid?@X@cMYW<1
 I8nKg>T=1CXhXZ@:Wj4:dN2
@@ -103,7 +103,7 @@ R5
 r1
 !s85 0
 31
-R6
+Z11 !s108 1596735137.000000
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv|
 !i113 1
@@ -111,17 +111,43 @@ R7
 R8
 R9
 nfixed@point@adder
+vfixPointMult
+R1
+R2
+!i10b 1
+!s100 R[Y@md>A4VBDKLAGFUcI;3
+I:eET^O^?k<hWdz]RZbSEF1
+R3
+!s105 fixPointMult_sv_unit
+S1
+R0
+w1596733436
+8/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv
+F/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv
+L0 1
+R5
+r1
+!s85 0
+31
+R6
+!s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv|
+!i113 1
+R7
+R8
+R9
+nfix@point@mult
 vfloatingpPointMult
 R1
-R10
+R2
 !i10b 1
-!s100 LV7j``4BdABNhVo@XH6iS3
-IU[BY>UR]3K9jKT8iPE`7c3
+!s100 8X^a9DlBk4S9AaQCG:Fma3
+IS:`g^XAXHP9RozlPI`kUz1
 R3
 !s105 floatingpPointMult_sv_unit
 S1
 R0
-R4
+w1596728886
 8/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
 F/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv
 L0 1
@@ -129,7 +155,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv|
 !i113 1
@@ -164,15 +190,15 @@ R8
 R9
 vIIR
 R1
-R10
+R2
 !i10b 1
-!s100 86@UVmkbF2CE;Ge^:_P]a1
-Im^i>G3z1mUPN7c>`Fa<^@1
+!s100 F5>baf3QPZ>;nPKMU@UR;3
+IL?hK9W9SGH=S;C5j=6UUJ3
 R3
 !s105 IIR_sv_unit
 S1
 R0
-w1596667341
+w1596734993
 8/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
 F/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv
 L0 1
@@ -180,7 +206,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv|
 !i113 1
@@ -190,7 +216,7 @@ R9
 n@i@i@r
 vIIR_tb
 R1
-!s110 1596688974
+!s110 1596735154
 !i10b 1
 !s100 1JP^5B8J[caYChVlbI@M00
 IAM6ObFMNl9GL0@0GGDg670
@@ -206,7 +232,7 @@ R5
 r1
 !s85 0
 31
-!s108 1596688974.000000
+!s108 1596735154.000000
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv|
 !s90 -reportprogress|300|-work|work|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv|
 !i113 1
@@ -215,7 +241,7 @@ R9
 n@i@i@r_tb
 vleftShifter
 R1
-R10
+R2
 !i10b 1
 !s100 [56LGJfM:XSZRo=dBKmm@0
 I5SP`TRfW13H54dJonPkhN0
@@ -231,7 +257,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv|
 !i113 1
@@ -241,7 +267,7 @@ R9
 nleft@shifter
 vlow
 R1
-R10
+R2
 !i10b 1
 !s100 g3jNi?1?Vn:=bIDDomINM3
 IQ_n4RzRoUA7CWz2lM3=D@1
@@ -257,7 +283,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv|
 !i113 1
@@ -266,7 +292,7 @@ R8
 R9
 vmid
 R1
-R10
+R2
 !i10b 1
 !s100 8Lk;jDIloWYk5bZ=KTe4P1
 IW5C2H?ZaWe[3JgTN4ZO?Q3
@@ -291,7 +317,7 @@ R8
 R9
 vmul
 R1
-R2
+R10
 !i10b 1
 !s100 4i19];XK51F5Hl5IhJHJV3
 IIVjhQl@>mK;J[khaV0]9:0
@@ -307,7 +333,7 @@ R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv|
 !i113 1
@@ -368,15 +394,15 @@ R9
 nonebit@extender
 voutSelector
 R1
-R10
+R2
 !i10b 1
-!s100 8LgVClX3`R@6IEGeJL]`S3
-I1f7ST1Ro6Z4983dWV7f3A3
+!s100 k4Kni7WYGM=QO25VT[Uom3
+IA1n0lkfTORn[Uk_WF64I92
 R3
 !s105 outSelector_sv_unit
 S1
 R0
-R4
+w1596735114
 8/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv
 F/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv
 L0 1
@@ -384,7 +410,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv|
 !i113 1
@@ -410,7 +436,7 @@ R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv|
 !i113 1
@@ -420,7 +446,7 @@ R9
 nover@flow@detector
 vrightShifter
 R1
-R10
+R2
 !i10b 1
 !s100 a6>T>NCNkiV8jVm3ao1cR1
 I:OOTgHmM]9L9BkmNCLzzo2
@@ -436,7 +462,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv|
 !i113 1
@@ -472,7 +498,7 @@ R9
 nsign@inverter
 vsimpleRegister
 R1
-R10
+R2
 !i10b 1
 !s100 ]zZPje^3J8eT<mMT5Ha0k0
 I;V<7IUZf0]M[I@NmTH67m2
@@ -488,7 +514,7 @@ R5
 r1
 !s85 0
 31
-R11
+R6
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv|
 !i113 1
@@ -523,7 +549,7 @@ R8
 R9
 vxorgate
 R1
-R2
+R10
 !i10b 1
 !s100 ^iUonz]VHN_5=E8]IZO5:1
 IbNA<F4eRYVzg2P7ZTNVez3
@@ -539,7 +565,7 @@ R5
 r1
 !s85 0
 31
-R6
+R11
 !s107 /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv|
 !s90 -reportprogress|300|-sv|-work|work|+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit|/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv|
 !i113 1

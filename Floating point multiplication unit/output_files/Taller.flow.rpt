@@ -1,5 +1,5 @@
 Flow report for Taller
-Wed Aug  5 20:50:42 2020
+Thu Aug  6 11:32:13 2020
 Quartus Prime Version 18.1.0 Build 625 09/12/2018 SJ Lite Edition
 
 
@@ -40,7 +40,7 @@ refer to the applicable agreement for further details.
 +---------------------------------------------------------------------------+
 ; Flow Summary                                                              ;
 +-----------------------------+---------------------------------------------+
-; Flow Status                 ; Successful - Wed Aug  5 20:50:42 2020       ;
+; Flow Status                 ; Successful - Thu Aug  6 11:32:13 2020       ;
 ; Quartus Prime Version       ; 18.1.0 Build 625 09/12/2018 SJ Lite Edition ;
 ; Revision Name               ; Taller                                      ;
 ; Top-level Entity Name       ; IIR                                         ;
@@ -62,7 +62,7 @@ refer to the applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/05/2020 20:50:32 ;
+; Start date & time ; 08/06/2020 11:32:03 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; Taller              ;
 +-------------------+---------------------+
@@ -73,7 +73,7 @@ refer to the applicable agreement for further details.
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+----------------------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 79554451191335.159668223263620         ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 79554451191335.159673512343540         ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Verilog Hdl                            ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (Verilog)              ; <None>        ; --          ; --             ;
 ; EDA_TIME_SCALE                      ; 1 ps                                   ; --            ; --          ; eda_simulation ;

@@ -161,38 +161,38 @@ offset_i[28] => offset_i[28].IN1
 offset_i[29] => offset_i[29].IN1
 offset_i[30] => offset_i[30].IN1
 offset_i[31] => offset_i[31].IN1
-y_o[0] <= fixedPointAdder:adder3.c_o
-y_o[1] <= fixedPointAdder:adder3.c_o
-y_o[2] <= fixedPointAdder:adder3.c_o
-y_o[3] <= fixedPointAdder:adder3.c_o
-y_o[4] <= fixedPointAdder:adder3.c_o
-y_o[5] <= fixedPointAdder:adder3.c_o
-y_o[6] <= fixedPointAdder:adder3.c_o
-y_o[7] <= fixedPointAdder:adder3.c_o
-y_o[8] <= fixedPointAdder:adder3.c_o
-y_o[9] <= fixedPointAdder:adder3.c_o
-y_o[10] <= fixedPointAdder:adder3.c_o
-y_o[11] <= fixedPointAdder:adder3.c_o
-y_o[12] <= fixedPointAdder:adder3.c_o
-y_o[13] <= fixedPointAdder:adder3.c_o
-y_o[14] <= fixedPointAdder:adder3.c_o
-y_o[15] <= fixedPointAdder:adder3.c_o
-y_o[16] <= fixedPointAdder:adder3.c_o
-y_o[17] <= fixedPointAdder:adder3.c_o
-y_o[18] <= fixedPointAdder:adder3.c_o
-y_o[19] <= fixedPointAdder:adder3.c_o
-y_o[20] <= fixedPointAdder:adder3.c_o
-y_o[21] <= fixedPointAdder:adder3.c_o
-y_o[22] <= fixedPointAdder:adder3.c_o
-y_o[23] <= fixedPointAdder:adder3.c_o
-y_o[24] <= fixedPointAdder:adder3.c_o
-y_o[25] <= fixedPointAdder:adder3.c_o
-y_o[26] <= fixedPointAdder:adder3.c_o
-y_o[27] <= fixedPointAdder:adder3.c_o
-y_o[28] <= fixedPointAdder:adder3.c_o
-y_o[29] <= fixedPointAdder:adder3.c_o
-y_o[30] <= fixedPointAdder:adder3.c_o
-y_o[31] <= fixedPointAdder:adder3.c_o
+y_o[0] << fixedPointAdder:adder3.c_o
+y_o[1] << fixedPointAdder:adder3.c_o
+y_o[2] << fixedPointAdder:adder3.c_o
+y_o[3] << fixedPointAdder:adder3.c_o
+y_o[4] << fixedPointAdder:adder3.c_o
+y_o[5] << fixedPointAdder:adder3.c_o
+y_o[6] << fixedPointAdder:adder3.c_o
+y_o[7] << fixedPointAdder:adder3.c_o
+y_o[8] << fixedPointAdder:adder3.c_o
+y_o[9] << fixedPointAdder:adder3.c_o
+y_o[10] << fixedPointAdder:adder3.c_o
+y_o[11] << fixedPointAdder:adder3.c_o
+y_o[12] << fixedPointAdder:adder3.c_o
+y_o[13] << fixedPointAdder:adder3.c_o
+y_o[14] << fixedPointAdder:adder3.c_o
+y_o[15] << fixedPointAdder:adder3.c_o
+y_o[16] << fixedPointAdder:adder3.c_o
+y_o[17] << fixedPointAdder:adder3.c_o
+y_o[18] << fixedPointAdder:adder3.c_o
+y_o[19] << fixedPointAdder:adder3.c_o
+y_o[20] << fixedPointAdder:adder3.c_o
+y_o[21] << fixedPointAdder:adder3.c_o
+y_o[22] << fixedPointAdder:adder3.c_o
+y_o[23] << fixedPointAdder:adder3.c_o
+y_o[24] << fixedPointAdder:adder3.c_o
+y_o[25] << fixedPointAdder:adder3.c_o
+y_o[26] << fixedPointAdder:adder3.c_o
+y_o[27] << fixedPointAdder:adder3.c_o
+y_o[28] << fixedPointAdder:adder3.c_o
+y_o[29] << fixedPointAdder:adder3.c_o
+y_o[30] << fixedPointAdder:adder3.c_o
+y_o[31] << fixedPointAdder:adder3.c_o
 
 
 |IIR|simpleRegister:sRegister
@@ -358,7 +358,234 @@ data_o[30] <= data_o[30]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 data_o[31] <= data_o[31]~reg0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1
+|IIR|fixPointMult:mult1
+a_i[0] => a.DATAA
+a_i[0] => Add0.IN33
+a_i[1] => a.DATAA
+a_i[1] => Add0.IN32
+a_i[2] => a.DATAA
+a_i[2] => Add0.IN31
+a_i[3] => a.DATAA
+a_i[3] => Add0.IN30
+a_i[4] => a.DATAA
+a_i[4] => Add0.IN29
+a_i[5] => a.DATAA
+a_i[5] => Add0.IN28
+a_i[6] => a.DATAA
+a_i[6] => Add0.IN27
+a_i[7] => a.DATAA
+a_i[7] => Add0.IN26
+a_i[8] => a.DATAA
+a_i[8] => Add0.IN25
+a_i[9] => a.DATAA
+a_i[9] => Add0.IN24
+a_i[10] => a.DATAA
+a_i[10] => Add0.IN23
+a_i[11] => a.DATAA
+a_i[11] => Add0.IN22
+a_i[12] => a.DATAA
+a_i[12] => Add0.IN21
+a_i[13] => a.DATAA
+a_i[13] => Add0.IN20
+a_i[14] => a.DATAA
+a_i[14] => Add0.IN19
+a_i[15] => a.DATAA
+a_i[15] => Add0.IN18
+a_i[16] => a.DATAA
+a_i[16] => Add0.IN17
+a_i[17] => a.DATAA
+a_i[17] => Add0.IN16
+a_i[18] => a.DATAA
+a_i[18] => Add0.IN15
+a_i[19] => a.DATAA
+a_i[19] => Add0.IN14
+a_i[20] => a.DATAA
+a_i[20] => Add0.IN13
+a_i[21] => a.DATAA
+a_i[21] => Add0.IN12
+a_i[22] => a.DATAA
+a_i[22] => Add0.IN11
+a_i[23] => a.DATAA
+a_i[23] => Add0.IN10
+a_i[24] => a.DATAA
+a_i[24] => Add0.IN9
+a_i[25] => a.DATAA
+a_i[25] => Add0.IN8
+a_i[26] => a.DATAA
+a_i[26] => Add0.IN7
+a_i[27] => a.DATAA
+a_i[27] => Add0.IN6
+a_i[28] => a.DATAA
+a_i[28] => Add0.IN5
+a_i[29] => a.DATAA
+a_i[29] => Add0.IN4
+a_i[30] => a.DATAA
+a_i[30] => Add0.IN3
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => c_o.IN0
+a_i[31] => Add0.IN2
+b_i[0] => b.DATAA
+b_i[0] => Add1.IN33
+b_i[1] => b.DATAA
+b_i[1] => Add1.IN32
+b_i[2] => b.DATAA
+b_i[2] => Add1.IN31
+b_i[3] => b.DATAA
+b_i[3] => Add1.IN30
+b_i[4] => b.DATAA
+b_i[4] => Add1.IN29
+b_i[5] => b.DATAA
+b_i[5] => Add1.IN28
+b_i[6] => b.DATAA
+b_i[6] => Add1.IN27
+b_i[7] => b.DATAA
+b_i[7] => Add1.IN26
+b_i[8] => b.DATAA
+b_i[8] => Add1.IN25
+b_i[9] => b.DATAA
+b_i[9] => Add1.IN24
+b_i[10] => b.DATAA
+b_i[10] => Add1.IN23
+b_i[11] => b.DATAA
+b_i[11] => Add1.IN22
+b_i[12] => b.DATAA
+b_i[12] => Add1.IN21
+b_i[13] => b.DATAA
+b_i[13] => Add1.IN20
+b_i[14] => b.DATAA
+b_i[14] => Add1.IN19
+b_i[15] => b.DATAA
+b_i[15] => Add1.IN18
+b_i[16] => b.DATAA
+b_i[16] => Add1.IN17
+b_i[17] => b.DATAA
+b_i[17] => Add1.IN16
+b_i[18] => b.DATAA
+b_i[18] => Add1.IN15
+b_i[19] => b.DATAA
+b_i[19] => Add1.IN14
+b_i[20] => b.DATAA
+b_i[20] => Add1.IN13
+b_i[21] => b.DATAA
+b_i[21] => Add1.IN12
+b_i[22] => b.DATAA
+b_i[22] => Add1.IN11
+b_i[23] => b.DATAA
+b_i[23] => Add1.IN10
+b_i[24] => b.DATAA
+b_i[24] => Add1.IN9
+b_i[25] => b.DATAA
+b_i[25] => Add1.IN8
+b_i[26] => b.DATAA
+b_i[26] => Add1.IN7
+b_i[27] => b.DATAA
+b_i[27] => Add1.IN6
+b_i[28] => b.DATAA
+b_i[28] => Add1.IN5
+b_i[29] => b.DATAA
+b_i[29] => Add1.IN4
+b_i[30] => b.DATAA
+b_i[30] => Add1.IN3
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => c_o.IN1
+b_i[31] => Add1.IN2
+c_o[0] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[1] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[2] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[3] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[4] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[5] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[6] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[7] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[8] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[9] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[10] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[11] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[12] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[13] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[14] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[15] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[16] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[17] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[18] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[19] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[20] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[21] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[22] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[23] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[24] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[25] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[26] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[27] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[28] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[29] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[30] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[31] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1
 A[0] => A[0].IN2
 A[1] => A[1].IN2
 A[2] => A[2].IN2
@@ -389,40 +616,40 @@ C[11] => C[11].IN2
 C[12] => C[12].IN2
 C[13] => C[13].IN2
 C[14] => C[14].IN2
-B[0] => B[0].IN2
-B[1] => B[1].IN2
-B[2] => B[2].IN2
-B[3] => B[3].IN2
-B[4] => B[4].IN2
-B[5] => B[5].IN2
-B[6] => B[6].IN2
-B[7] => B[7].IN2
-B[8] => B[8].IN2
-B[9] => B[9].IN2
-B[10] => B[10].IN2
-B[11] => B[11].IN2
-B[12] => B[12].IN2
-B[13] => B[13].IN2
-B[14] => B[14].IN2
-B[15] => B[15].IN2
-D[0] => D[0].IN2
-D[1] => D[1].IN2
-D[2] => D[2].IN2
-D[3] => D[3].IN2
-D[4] => D[4].IN2
-D[5] => D[5].IN2
-D[6] => D[6].IN2
-D[7] => D[7].IN2
-D[8] => D[8].IN2
-D[9] => D[9].IN2
-D[10] => D[10].IN2
-D[11] => D[11].IN2
-D[12] => D[12].IN2
-D[13] => D[13].IN2
-D[14] => D[14].IN2
-D[15] => D[15].IN2
-signA => signA.IN2
-signC => signC.IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+D[0] => D[0].IN1
+D[1] => D[1].IN1
+D[2] => D[2].IN1
+D[3] => D[3].IN1
+D[4] => D[4].IN1
+D[5] => D[5].IN1
+D[6] => D[6].IN1
+D[7] => D[7].IN1
+D[8] => D[8].IN1
+D[9] => D[9].IN1
+D[10] => D[10].IN1
+D[11] => D[11].IN1
+D[12] => D[12].IN1
+D[13] => D[13].IN1
+D[14] => D[14].IN1
+D[15] => D[15].IN1
+signA => signA.IN3
+signC => signC.IN3
 out[0] <= outSelector:outGen.port5
 out[1] <= outSelector:outGen.port5
 out[2] <= outSelector:outGen.port5
@@ -457,7 +684,111 @@ out[30] <= outSelector:outGen.port5
 out[31] <= outSelector:outGen.port5
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|signInverter:invert2
+number[0] => out.DATAA
+number[0] => Add0.IN17
+number[1] => out.DATAA
+number[1] => Add0.IN16
+number[2] => out.DATAA
+number[2] => Add0.IN15
+number[3] => out.DATAA
+number[3] => Add0.IN14
+number[4] => out.DATAA
+number[4] => Add0.IN13
+number[5] => out.DATAA
+number[5] => Add0.IN12
+number[6] => out.DATAA
+number[6] => Add0.IN11
+number[7] => out.DATAA
+number[7] => Add0.IN10
+number[8] => out.DATAA
+number[8] => Add0.IN9
+number[9] => out.DATAA
+number[9] => Add0.IN8
+number[10] => out.DATAA
+number[10] => Add0.IN7
+number[11] => out.DATAA
+number[11] => Add0.IN6
+number[12] => out.DATAA
+number[12] => Add0.IN5
+number[13] => out.DATAA
+number[13] => Add0.IN4
+number[14] => out.DATAA
+number[14] => Add0.IN3
+number[15] => out.DATAA
+number[15] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|signInverter:invert3
+number[0] => out.DATAA
+number[0] => Add0.IN17
+number[1] => out.DATAA
+number[1] => Add0.IN16
+number[2] => out.DATAA
+number[2] => Add0.IN15
+number[3] => out.DATAA
+number[3] => Add0.IN14
+number[4] => out.DATAA
+number[4] => Add0.IN13
+number[5] => out.DATAA
+number[5] => Add0.IN12
+number[6] => out.DATAA
+number[6] => Add0.IN11
+number[7] => out.DATAA
+number[7] => Add0.IN10
+number[8] => out.DATAA
+number[8] => Add0.IN9
+number[9] => out.DATAA
+number[9] => Add0.IN8
+number[10] => out.DATAA
+number[10] => Add0.IN7
+number[11] => out.DATAA
+number[11] => Add0.IN6
+number[12] => out.DATAA
+number[12] => Add0.IN5
+number[13] => out.DATAA
+number[13] => Add0.IN4
+number[14] => out.DATAA
+number[14] => Add0.IN3
+number[15] => out.DATAA
+number[15] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit
 B[0] => mulUnit:multiplicationUnit.operA[0]
 B[1] => mulUnit:multiplicationUnit.operA[1]
 B[2] => mulUnit:multiplicationUnit.operA[2]
@@ -556,7 +887,7 @@ out[62] <= to32extender:resultExtender.port1
 out[63] <= to32extender:resultExtender.port1
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -627,7 +958,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -679,7 +1010,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -731,7 +1062,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -782,7 +1113,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -833,7 +1164,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|mul:multiplier
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -932,7 +1263,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -952,13 +1283,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|xorgate:xorg
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|low:lowUnit|to32extender:resultExtender
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|low:lowUnit|to32extender:resultExtender
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -1057,7 +1388,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -1188,7 +1519,7 @@ out[62] <= bit32Adder:add.port2
 out[63] <= bit32Adder:add.port2
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendA
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -1223,7 +1554,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendB
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -1258,7 +1589,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -1329,7 +1660,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -1381,7 +1712,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -1433,7 +1764,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -1484,7 +1815,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -1535,7 +1866,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|mul:multiplier
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -1634,7 +1965,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|overFlowDetector:over
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -1654,13 +1985,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|xorgate:xorg
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -1731,7 +2062,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -1783,7 +2114,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -1835,7 +2166,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -1886,7 +2217,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -1937,7 +2268,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|mul:multiplier
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -2036,7 +2367,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|overFlowDetector:over
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -2056,13 +2387,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|xorgate:xorg
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedAXD
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedAXD
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -2161,7 +2492,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedBXC
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedBXC
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -2260,7 +2591,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|mid:midUnit|bit32Adder:add
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|mid:midUnit|bit32Adder:add
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -2455,7 +2786,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit
 wholeA[0] => wholeA[0].IN1
 wholeA[1] => wholeA[1].IN1
 wholeA[2] => wholeA[2].IN1
@@ -2556,7 +2887,7 @@ sign <= mulUnit:multiplicationUnit.port6
 overflow <= mulUnit:multiplicationUnit.port5
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendA
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -2591,7 +2922,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendB
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -2626,7 +2957,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -2697,7 +3028,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -2749,7 +3080,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -2801,7 +3132,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderA
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -2852,7 +3183,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderB
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -2903,7 +3234,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|mul:multiplier
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -3002,7 +3333,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|overFlowDetector:over
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -3022,13 +3353,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|xorgate:xorg
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|high:highUnit|to32extender:resultExtender
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|high:highUnit|to32extender:resultExtender
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -3127,7 +3458,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|leftShifter:highshifter
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|leftShifter:highshifter
 num[0] => out[16].DATAIN
 num[1] => out[17].DATAIN
 num[2] => out[18].DATAIN
@@ -3258,7 +3589,7 @@ out[62] <= num[46].DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= num[47].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|rightShifter:lowShifter
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|rightShifter:lowShifter
 num[0] => ~NO_FANOUT~
 num[1] => ~NO_FANOUT~
 num[2] => ~NO_FANOUT~
@@ -3389,7 +3720,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult1|bit32Adder:firstAdd
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|bit32Adder:firstAdd
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -3584,7 +3915,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|bit32Adder:secondAdd
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|bit32Adder:secondAdd
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -3779,7 +4110,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|signInverter:invert
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|signInverter:invert
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -3831,7 +4162,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|bit32OverflowDetector:detector
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|bit32OverflowDetector:detector
 number[0] => ~NO_FANOUT~
 number[1] => ~NO_FANOUT~
 number[2] => ~NO_FANOUT~
@@ -3899,7 +4230,7 @@ number[63] => LessThan0.IN17
 out <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult1|outSelector:outGen
+|IIR|fixPointMult:mult1|floatingpPointMult:mult1|outSelector:outGen
 result[0] => ~NO_FANOUT~
 result[1] => ~NO_FANOUT~
 result[2] => ~NO_FANOUT~
@@ -3917,36 +4248,67 @@ result[13] => ~NO_FANOUT~
 result[14] => ~NO_FANOUT~
 result[15] => ~NO_FANOUT~
 result[16] => out.DATAA
+result[16] => Add0.IN33
 result[17] => out.DATAA
+result[17] => Add0.IN32
 result[18] => out.DATAA
+result[18] => Add0.IN31
 result[19] => out.DATAA
+result[19] => Add0.IN30
 result[20] => out.DATAA
+result[20] => Add0.IN29
 result[21] => out.DATAA
+result[21] => Add0.IN28
 result[22] => out.DATAA
+result[22] => Add0.IN27
 result[23] => out.DATAA
+result[23] => Add0.IN26
 result[24] => out.DATAA
+result[24] => Add0.IN25
 result[25] => out.DATAA
+result[25] => Add0.IN24
 result[26] => out.DATAA
+result[26] => Add0.IN23
 result[27] => out.DATAA
+result[27] => Add0.IN22
 result[28] => out.DATAA
+result[28] => Add0.IN21
 result[29] => out.DATAA
+result[29] => Add0.IN20
 result[30] => out.DATAA
+result[30] => Add0.IN19
 result[31] => out.DATAA
+result[31] => Add0.IN18
 result[32] => out.DATAA
+result[32] => Add0.IN17
 result[33] => out.DATAA
+result[33] => Add0.IN16
 result[34] => out.DATAA
+result[34] => Add0.IN15
 result[35] => out.DATAA
+result[35] => Add0.IN14
 result[36] => out.DATAA
+result[36] => Add0.IN13
 result[37] => out.DATAA
+result[37] => Add0.IN12
 result[38] => out.DATAA
+result[38] => Add0.IN11
 result[39] => out.DATAA
+result[39] => Add0.IN10
 result[40] => out.DATAA
+result[40] => Add0.IN9
 result[41] => out.DATAA
+result[41] => Add0.IN8
 result[42] => out.DATAA
+result[42] => Add0.IN7
 result[43] => out.DATAA
+result[43] => Add0.IN6
 result[44] => out.DATAA
+result[44] => Add0.IN5
 result[45] => out.DATAA
+result[45] => Add0.IN4
 result[46] => out.DATAA
+result[46] => Add0.IN3
 result[47] => ~NO_FANOUT~
 result[48] => ~NO_FANOUT~
 result[49] => ~NO_FANOUT~
@@ -3964,21 +4326,21 @@ result[60] => ~NO_FANOUT~
 result[61] => ~NO_FANOUT~
 result[62] => ~NO_FANOUT~
 result[63] => ~NO_FANOUT~
-signedResult[0] => out.DATAB
-signedResult[1] => out.DATAB
-signedResult[2] => out.DATAB
-signedResult[3] => out.DATAB
-signedResult[4] => out.DATAB
-signedResult[5] => out.DATAB
-signedResult[6] => out.DATAB
-signedResult[7] => out.DATAB
-signedResult[8] => out.DATAB
-signedResult[9] => out.DATAB
-signedResult[10] => out.DATAB
-signedResult[11] => out.DATAB
-signedResult[12] => out.DATAB
-signedResult[13] => out.DATAB
-signedResult[14] => out.DATAB
+signedResult[0] => ~NO_FANOUT~
+signedResult[1] => ~NO_FANOUT~
+signedResult[2] => ~NO_FANOUT~
+signedResult[3] => ~NO_FANOUT~
+signedResult[4] => ~NO_FANOUT~
+signedResult[5] => ~NO_FANOUT~
+signedResult[6] => ~NO_FANOUT~
+signedResult[7] => ~NO_FANOUT~
+signedResult[8] => ~NO_FANOUT~
+signedResult[9] => ~NO_FANOUT~
+signedResult[10] => ~NO_FANOUT~
+signedResult[11] => ~NO_FANOUT~
+signedResult[12] => ~NO_FANOUT~
+signedResult[13] => ~NO_FANOUT~
+signedResult[14] => ~NO_FANOUT~
 signedResult[15] => ~NO_FANOUT~
 overflowHigh => always0.IN0
 overflowShift => always0.IN1
@@ -3997,7 +4359,24 @@ sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
-sign => out[31].DATAIN
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.DATAB
 out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
@@ -4029,10 +4408,237 @@ out[27] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[28] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[29] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[30] <= out.DB_MAX_OUTPUT_PORT_TYPE
-out[31] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+out[31] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2
+|IIR|fixPointMult:mult2
+a_i[0] => a.DATAA
+a_i[0] => Add0.IN33
+a_i[1] => a.DATAA
+a_i[1] => Add0.IN32
+a_i[2] => a.DATAA
+a_i[2] => Add0.IN31
+a_i[3] => a.DATAA
+a_i[3] => Add0.IN30
+a_i[4] => a.DATAA
+a_i[4] => Add0.IN29
+a_i[5] => a.DATAA
+a_i[5] => Add0.IN28
+a_i[6] => a.DATAA
+a_i[6] => Add0.IN27
+a_i[7] => a.DATAA
+a_i[7] => Add0.IN26
+a_i[8] => a.DATAA
+a_i[8] => Add0.IN25
+a_i[9] => a.DATAA
+a_i[9] => Add0.IN24
+a_i[10] => a.DATAA
+a_i[10] => Add0.IN23
+a_i[11] => a.DATAA
+a_i[11] => Add0.IN22
+a_i[12] => a.DATAA
+a_i[12] => Add0.IN21
+a_i[13] => a.DATAA
+a_i[13] => Add0.IN20
+a_i[14] => a.DATAA
+a_i[14] => Add0.IN19
+a_i[15] => a.DATAA
+a_i[15] => Add0.IN18
+a_i[16] => a.DATAA
+a_i[16] => Add0.IN17
+a_i[17] => a.DATAA
+a_i[17] => Add0.IN16
+a_i[18] => a.DATAA
+a_i[18] => Add0.IN15
+a_i[19] => a.DATAA
+a_i[19] => Add0.IN14
+a_i[20] => a.DATAA
+a_i[20] => Add0.IN13
+a_i[21] => a.DATAA
+a_i[21] => Add0.IN12
+a_i[22] => a.DATAA
+a_i[22] => Add0.IN11
+a_i[23] => a.DATAA
+a_i[23] => Add0.IN10
+a_i[24] => a.DATAA
+a_i[24] => Add0.IN9
+a_i[25] => a.DATAA
+a_i[25] => Add0.IN8
+a_i[26] => a.DATAA
+a_i[26] => Add0.IN7
+a_i[27] => a.DATAA
+a_i[27] => Add0.IN6
+a_i[28] => a.DATAA
+a_i[28] => Add0.IN5
+a_i[29] => a.DATAA
+a_i[29] => Add0.IN4
+a_i[30] => a.DATAA
+a_i[30] => Add0.IN3
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => c_o.IN0
+a_i[31] => Add0.IN2
+b_i[0] => b.DATAA
+b_i[0] => Add1.IN33
+b_i[1] => b.DATAA
+b_i[1] => Add1.IN32
+b_i[2] => b.DATAA
+b_i[2] => Add1.IN31
+b_i[3] => b.DATAA
+b_i[3] => Add1.IN30
+b_i[4] => b.DATAA
+b_i[4] => Add1.IN29
+b_i[5] => b.DATAA
+b_i[5] => Add1.IN28
+b_i[6] => b.DATAA
+b_i[6] => Add1.IN27
+b_i[7] => b.DATAA
+b_i[7] => Add1.IN26
+b_i[8] => b.DATAA
+b_i[8] => Add1.IN25
+b_i[9] => b.DATAA
+b_i[9] => Add1.IN24
+b_i[10] => b.DATAA
+b_i[10] => Add1.IN23
+b_i[11] => b.DATAA
+b_i[11] => Add1.IN22
+b_i[12] => b.DATAA
+b_i[12] => Add1.IN21
+b_i[13] => b.DATAA
+b_i[13] => Add1.IN20
+b_i[14] => b.DATAA
+b_i[14] => Add1.IN19
+b_i[15] => b.DATAA
+b_i[15] => Add1.IN18
+b_i[16] => b.DATAA
+b_i[16] => Add1.IN17
+b_i[17] => b.DATAA
+b_i[17] => Add1.IN16
+b_i[18] => b.DATAA
+b_i[18] => Add1.IN15
+b_i[19] => b.DATAA
+b_i[19] => Add1.IN14
+b_i[20] => b.DATAA
+b_i[20] => Add1.IN13
+b_i[21] => b.DATAA
+b_i[21] => Add1.IN12
+b_i[22] => b.DATAA
+b_i[22] => Add1.IN11
+b_i[23] => b.DATAA
+b_i[23] => Add1.IN10
+b_i[24] => b.DATAA
+b_i[24] => Add1.IN9
+b_i[25] => b.DATAA
+b_i[25] => Add1.IN8
+b_i[26] => b.DATAA
+b_i[26] => Add1.IN7
+b_i[27] => b.DATAA
+b_i[27] => Add1.IN6
+b_i[28] => b.DATAA
+b_i[28] => Add1.IN5
+b_i[29] => b.DATAA
+b_i[29] => Add1.IN4
+b_i[30] => b.DATAA
+b_i[30] => Add1.IN3
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => c_o.IN1
+b_i[31] => Add1.IN2
+c_o[0] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[1] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[2] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[3] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[4] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[5] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[6] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[7] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[8] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[9] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[10] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[11] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[12] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[13] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[14] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[15] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[16] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[17] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[18] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[19] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[20] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[21] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[22] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[23] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[24] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[25] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[26] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[27] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[28] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[29] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[30] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[31] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1
 A[0] => A[0].IN2
 A[1] => A[1].IN2
 A[2] => A[2].IN2
@@ -4063,40 +4669,40 @@ C[11] => C[11].IN2
 C[12] => C[12].IN2
 C[13] => C[13].IN2
 C[14] => C[14].IN2
-B[0] => B[0].IN2
-B[1] => B[1].IN2
-B[2] => B[2].IN2
-B[3] => B[3].IN2
-B[4] => B[4].IN2
-B[5] => B[5].IN2
-B[6] => B[6].IN2
-B[7] => B[7].IN2
-B[8] => B[8].IN2
-B[9] => B[9].IN2
-B[10] => B[10].IN2
-B[11] => B[11].IN2
-B[12] => B[12].IN2
-B[13] => B[13].IN2
-B[14] => B[14].IN2
-B[15] => B[15].IN2
-D[0] => D[0].IN2
-D[1] => D[1].IN2
-D[2] => D[2].IN2
-D[3] => D[3].IN2
-D[4] => D[4].IN2
-D[5] => D[5].IN2
-D[6] => D[6].IN2
-D[7] => D[7].IN2
-D[8] => D[8].IN2
-D[9] => D[9].IN2
-D[10] => D[10].IN2
-D[11] => D[11].IN2
-D[12] => D[12].IN2
-D[13] => D[13].IN2
-D[14] => D[14].IN2
-D[15] => D[15].IN2
-signA => signA.IN2
-signC => signC.IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+D[0] => D[0].IN1
+D[1] => D[1].IN1
+D[2] => D[2].IN1
+D[3] => D[3].IN1
+D[4] => D[4].IN1
+D[5] => D[5].IN1
+D[6] => D[6].IN1
+D[7] => D[7].IN1
+D[8] => D[8].IN1
+D[9] => D[9].IN1
+D[10] => D[10].IN1
+D[11] => D[11].IN1
+D[12] => D[12].IN1
+D[13] => D[13].IN1
+D[14] => D[14].IN1
+D[15] => D[15].IN1
+signA => signA.IN3
+signC => signC.IN3
 out[0] <= outSelector:outGen.port5
 out[1] <= outSelector:outGen.port5
 out[2] <= outSelector:outGen.port5
@@ -4131,7 +4737,111 @@ out[30] <= outSelector:outGen.port5
 out[31] <= outSelector:outGen.port5
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|signInverter:invert2
+number[0] => out.DATAA
+number[0] => Add0.IN17
+number[1] => out.DATAA
+number[1] => Add0.IN16
+number[2] => out.DATAA
+number[2] => Add0.IN15
+number[3] => out.DATAA
+number[3] => Add0.IN14
+number[4] => out.DATAA
+number[4] => Add0.IN13
+number[5] => out.DATAA
+number[5] => Add0.IN12
+number[6] => out.DATAA
+number[6] => Add0.IN11
+number[7] => out.DATAA
+number[7] => Add0.IN10
+number[8] => out.DATAA
+number[8] => Add0.IN9
+number[9] => out.DATAA
+number[9] => Add0.IN8
+number[10] => out.DATAA
+number[10] => Add0.IN7
+number[11] => out.DATAA
+number[11] => Add0.IN6
+number[12] => out.DATAA
+number[12] => Add0.IN5
+number[13] => out.DATAA
+number[13] => Add0.IN4
+number[14] => out.DATAA
+number[14] => Add0.IN3
+number[15] => out.DATAA
+number[15] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|signInverter:invert3
+number[0] => out.DATAA
+number[0] => Add0.IN17
+number[1] => out.DATAA
+number[1] => Add0.IN16
+number[2] => out.DATAA
+number[2] => Add0.IN15
+number[3] => out.DATAA
+number[3] => Add0.IN14
+number[4] => out.DATAA
+number[4] => Add0.IN13
+number[5] => out.DATAA
+number[5] => Add0.IN12
+number[6] => out.DATAA
+number[6] => Add0.IN11
+number[7] => out.DATAA
+number[7] => Add0.IN10
+number[8] => out.DATAA
+number[8] => Add0.IN9
+number[9] => out.DATAA
+number[9] => Add0.IN8
+number[10] => out.DATAA
+number[10] => Add0.IN7
+number[11] => out.DATAA
+number[11] => Add0.IN6
+number[12] => out.DATAA
+number[12] => Add0.IN5
+number[13] => out.DATAA
+number[13] => Add0.IN4
+number[14] => out.DATAA
+number[14] => Add0.IN3
+number[15] => out.DATAA
+number[15] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit
 B[0] => mulUnit:multiplicationUnit.operA[0]
 B[1] => mulUnit:multiplicationUnit.operA[1]
 B[2] => mulUnit:multiplicationUnit.operA[2]
@@ -4230,7 +4940,7 @@ out[62] <= to32extender:resultExtender.port1
 out[63] <= to32extender:resultExtender.port1
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -4301,7 +5011,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -4353,7 +5063,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -4405,7 +5115,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -4456,7 +5166,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -4507,7 +5217,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit|mul:multiplier
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -4606,7 +5316,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -4626,13 +5336,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|mulUnit:multiplicationUnit|xorgate:xorg
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|low:lowUnit|to32extender:resultExtender
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|low:lowUnit|to32extender:resultExtender
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -4731,7 +5441,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -4862,7 +5572,7 @@ out[62] <= bit32Adder:add.port2
 out[63] <= bit32Adder:add.port2
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|onebitExtender:extendA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendA
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -4897,7 +5607,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|onebitExtender:extendB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendB
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -4932,7 +5642,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -5003,7 +5713,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -5055,7 +5765,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -5107,7 +5817,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -5158,7 +5868,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -5209,7 +5919,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1|mul:multiplier
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -5308,7 +6018,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1|overFlowDetector:over
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -5328,13 +6038,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit1|xorgate:xorg
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -5405,7 +6115,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -5457,7 +6167,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -5509,7 +6219,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -5560,7 +6270,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -5611,7 +6321,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2|mul:multiplier
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -5710,7 +6420,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2|overFlowDetector:over
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -5730,13 +6440,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|mulUnit:multiplicationUnit2|xorgate:xorg
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|to32extender:extendedAXD
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedAXD
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -5835,7 +6545,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|to32extender:extendedBXC
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedBXC
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -5934,7 +6644,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|mid:midUnit|bit32Adder:add
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|mid:midUnit|bit32Adder:add
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -6129,7 +6839,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit
 wholeA[0] => wholeA[0].IN1
 wholeA[1] => wholeA[1].IN1
 wholeA[2] => wholeA[2].IN1
@@ -6230,7 +6940,7 @@ sign <= mulUnit:multiplicationUnit.port6
 overflow <= mulUnit:multiplicationUnit.port5
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|onebitExtender:extendA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendA
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -6265,7 +6975,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|onebitExtender:extendB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendB
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -6300,7 +7010,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -6371,7 +7081,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -6423,7 +7133,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -6475,7 +7185,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit|extender:extenderA
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -6526,7 +7236,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit|extender:extenderB
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -6577,7 +7287,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit|mul:multiplier
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -6676,7 +7386,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit|overFlowDetector:over
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -6696,13 +7406,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|mulUnit:multiplicationUnit|xorgate:xorg
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|high:highUnit|to32extender:resultExtender
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|high:highUnit|to32extender:resultExtender
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -6801,7 +7511,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|leftShifter:highshifter
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|leftShifter:highshifter
 num[0] => out[16].DATAIN
 num[1] => out[17].DATAIN
 num[2] => out[18].DATAIN
@@ -6932,7 +7642,7 @@ out[62] <= num[46].DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= num[47].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|rightShifter:lowShifter
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|rightShifter:lowShifter
 num[0] => ~NO_FANOUT~
 num[1] => ~NO_FANOUT~
 num[2] => ~NO_FANOUT~
@@ -7063,7 +7773,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult2|bit32Adder:firstAdd
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|bit32Adder:firstAdd
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -7258,7 +7968,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|bit32Adder:secondAdd
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|bit32Adder:secondAdd
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -7453,7 +8163,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|signInverter:invert
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|signInverter:invert
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -7505,7 +8215,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|bit32OverflowDetector:detector
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|bit32OverflowDetector:detector
 number[0] => ~NO_FANOUT~
 number[1] => ~NO_FANOUT~
 number[2] => ~NO_FANOUT~
@@ -7573,7 +8283,7 @@ number[63] => LessThan0.IN17
 out <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult2|outSelector:outGen
+|IIR|fixPointMult:mult2|floatingpPointMult:mult1|outSelector:outGen
 result[0] => ~NO_FANOUT~
 result[1] => ~NO_FANOUT~
 result[2] => ~NO_FANOUT~
@@ -7591,36 +8301,67 @@ result[13] => ~NO_FANOUT~
 result[14] => ~NO_FANOUT~
 result[15] => ~NO_FANOUT~
 result[16] => out.DATAA
+result[16] => Add0.IN33
 result[17] => out.DATAA
+result[17] => Add0.IN32
 result[18] => out.DATAA
+result[18] => Add0.IN31
 result[19] => out.DATAA
+result[19] => Add0.IN30
 result[20] => out.DATAA
+result[20] => Add0.IN29
 result[21] => out.DATAA
+result[21] => Add0.IN28
 result[22] => out.DATAA
+result[22] => Add0.IN27
 result[23] => out.DATAA
+result[23] => Add0.IN26
 result[24] => out.DATAA
+result[24] => Add0.IN25
 result[25] => out.DATAA
+result[25] => Add0.IN24
 result[26] => out.DATAA
+result[26] => Add0.IN23
 result[27] => out.DATAA
+result[27] => Add0.IN22
 result[28] => out.DATAA
+result[28] => Add0.IN21
 result[29] => out.DATAA
+result[29] => Add0.IN20
 result[30] => out.DATAA
+result[30] => Add0.IN19
 result[31] => out.DATAA
+result[31] => Add0.IN18
 result[32] => out.DATAA
+result[32] => Add0.IN17
 result[33] => out.DATAA
+result[33] => Add0.IN16
 result[34] => out.DATAA
+result[34] => Add0.IN15
 result[35] => out.DATAA
+result[35] => Add0.IN14
 result[36] => out.DATAA
+result[36] => Add0.IN13
 result[37] => out.DATAA
+result[37] => Add0.IN12
 result[38] => out.DATAA
+result[38] => Add0.IN11
 result[39] => out.DATAA
+result[39] => Add0.IN10
 result[40] => out.DATAA
+result[40] => Add0.IN9
 result[41] => out.DATAA
+result[41] => Add0.IN8
 result[42] => out.DATAA
+result[42] => Add0.IN7
 result[43] => out.DATAA
+result[43] => Add0.IN6
 result[44] => out.DATAA
+result[44] => Add0.IN5
 result[45] => out.DATAA
+result[45] => Add0.IN4
 result[46] => out.DATAA
+result[46] => Add0.IN3
 result[47] => ~NO_FANOUT~
 result[48] => ~NO_FANOUT~
 result[49] => ~NO_FANOUT~
@@ -7638,21 +8379,21 @@ result[60] => ~NO_FANOUT~
 result[61] => ~NO_FANOUT~
 result[62] => ~NO_FANOUT~
 result[63] => ~NO_FANOUT~
-signedResult[0] => out.DATAB
-signedResult[1] => out.DATAB
-signedResult[2] => out.DATAB
-signedResult[3] => out.DATAB
-signedResult[4] => out.DATAB
-signedResult[5] => out.DATAB
-signedResult[6] => out.DATAB
-signedResult[7] => out.DATAB
-signedResult[8] => out.DATAB
-signedResult[9] => out.DATAB
-signedResult[10] => out.DATAB
-signedResult[11] => out.DATAB
-signedResult[12] => out.DATAB
-signedResult[13] => out.DATAB
-signedResult[14] => out.DATAB
+signedResult[0] => ~NO_FANOUT~
+signedResult[1] => ~NO_FANOUT~
+signedResult[2] => ~NO_FANOUT~
+signedResult[3] => ~NO_FANOUT~
+signedResult[4] => ~NO_FANOUT~
+signedResult[5] => ~NO_FANOUT~
+signedResult[6] => ~NO_FANOUT~
+signedResult[7] => ~NO_FANOUT~
+signedResult[8] => ~NO_FANOUT~
+signedResult[9] => ~NO_FANOUT~
+signedResult[10] => ~NO_FANOUT~
+signedResult[11] => ~NO_FANOUT~
+signedResult[12] => ~NO_FANOUT~
+signedResult[13] => ~NO_FANOUT~
+signedResult[14] => ~NO_FANOUT~
 signedResult[15] => ~NO_FANOUT~
 overflowHigh => always0.IN0
 overflowShift => always0.IN1
@@ -7671,7 +8412,24 @@ sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
-sign => out[31].DATAIN
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.DATAB
 out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
@@ -7703,10 +8461,237 @@ out[27] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[28] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[29] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[30] <= out.DB_MAX_OUTPUT_PORT_TYPE
-out[31] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+out[31] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3
+|IIR|fixPointMult:mult3
+a_i[0] => a.DATAA
+a_i[0] => Add0.IN33
+a_i[1] => a.DATAA
+a_i[1] => Add0.IN32
+a_i[2] => a.DATAA
+a_i[2] => Add0.IN31
+a_i[3] => a.DATAA
+a_i[3] => Add0.IN30
+a_i[4] => a.DATAA
+a_i[4] => Add0.IN29
+a_i[5] => a.DATAA
+a_i[5] => Add0.IN28
+a_i[6] => a.DATAA
+a_i[6] => Add0.IN27
+a_i[7] => a.DATAA
+a_i[7] => Add0.IN26
+a_i[8] => a.DATAA
+a_i[8] => Add0.IN25
+a_i[9] => a.DATAA
+a_i[9] => Add0.IN24
+a_i[10] => a.DATAA
+a_i[10] => Add0.IN23
+a_i[11] => a.DATAA
+a_i[11] => Add0.IN22
+a_i[12] => a.DATAA
+a_i[12] => Add0.IN21
+a_i[13] => a.DATAA
+a_i[13] => Add0.IN20
+a_i[14] => a.DATAA
+a_i[14] => Add0.IN19
+a_i[15] => a.DATAA
+a_i[15] => Add0.IN18
+a_i[16] => a.DATAA
+a_i[16] => Add0.IN17
+a_i[17] => a.DATAA
+a_i[17] => Add0.IN16
+a_i[18] => a.DATAA
+a_i[18] => Add0.IN15
+a_i[19] => a.DATAA
+a_i[19] => Add0.IN14
+a_i[20] => a.DATAA
+a_i[20] => Add0.IN13
+a_i[21] => a.DATAA
+a_i[21] => Add0.IN12
+a_i[22] => a.DATAA
+a_i[22] => Add0.IN11
+a_i[23] => a.DATAA
+a_i[23] => Add0.IN10
+a_i[24] => a.DATAA
+a_i[24] => Add0.IN9
+a_i[25] => a.DATAA
+a_i[25] => Add0.IN8
+a_i[26] => a.DATAA
+a_i[26] => Add0.IN7
+a_i[27] => a.DATAA
+a_i[27] => Add0.IN6
+a_i[28] => a.DATAA
+a_i[28] => Add0.IN5
+a_i[29] => a.DATAA
+a_i[29] => Add0.IN4
+a_i[30] => a.DATAA
+a_i[30] => Add0.IN3
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => a.OUTPUTSELECT
+a_i[31] => c_o.IN0
+a_i[31] => Add0.IN2
+b_i[0] => b.DATAA
+b_i[0] => Add1.IN33
+b_i[1] => b.DATAA
+b_i[1] => Add1.IN32
+b_i[2] => b.DATAA
+b_i[2] => Add1.IN31
+b_i[3] => b.DATAA
+b_i[3] => Add1.IN30
+b_i[4] => b.DATAA
+b_i[4] => Add1.IN29
+b_i[5] => b.DATAA
+b_i[5] => Add1.IN28
+b_i[6] => b.DATAA
+b_i[6] => Add1.IN27
+b_i[7] => b.DATAA
+b_i[7] => Add1.IN26
+b_i[8] => b.DATAA
+b_i[8] => Add1.IN25
+b_i[9] => b.DATAA
+b_i[9] => Add1.IN24
+b_i[10] => b.DATAA
+b_i[10] => Add1.IN23
+b_i[11] => b.DATAA
+b_i[11] => Add1.IN22
+b_i[12] => b.DATAA
+b_i[12] => Add1.IN21
+b_i[13] => b.DATAA
+b_i[13] => Add1.IN20
+b_i[14] => b.DATAA
+b_i[14] => Add1.IN19
+b_i[15] => b.DATAA
+b_i[15] => Add1.IN18
+b_i[16] => b.DATAA
+b_i[16] => Add1.IN17
+b_i[17] => b.DATAA
+b_i[17] => Add1.IN16
+b_i[18] => b.DATAA
+b_i[18] => Add1.IN15
+b_i[19] => b.DATAA
+b_i[19] => Add1.IN14
+b_i[20] => b.DATAA
+b_i[20] => Add1.IN13
+b_i[21] => b.DATAA
+b_i[21] => Add1.IN12
+b_i[22] => b.DATAA
+b_i[22] => Add1.IN11
+b_i[23] => b.DATAA
+b_i[23] => Add1.IN10
+b_i[24] => b.DATAA
+b_i[24] => Add1.IN9
+b_i[25] => b.DATAA
+b_i[25] => Add1.IN8
+b_i[26] => b.DATAA
+b_i[26] => Add1.IN7
+b_i[27] => b.DATAA
+b_i[27] => Add1.IN6
+b_i[28] => b.DATAA
+b_i[28] => Add1.IN5
+b_i[29] => b.DATAA
+b_i[29] => Add1.IN4
+b_i[30] => b.DATAA
+b_i[30] => Add1.IN3
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => b.OUTPUTSELECT
+b_i[31] => c_o.IN1
+b_i[31] => Add1.IN2
+c_o[0] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[1] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[2] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[3] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[4] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[5] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[6] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[7] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[8] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[9] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[10] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[11] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[12] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[13] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[14] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[15] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[16] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[17] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[18] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[19] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[20] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[21] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[22] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[23] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[24] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[25] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[26] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[27] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[28] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[29] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[30] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+c_o[31] <= c_o.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1
 A[0] => A[0].IN2
 A[1] => A[1].IN2
 A[2] => A[2].IN2
@@ -7737,40 +8722,40 @@ C[11] => C[11].IN2
 C[12] => C[12].IN2
 C[13] => C[13].IN2
 C[14] => C[14].IN2
-B[0] => B[0].IN2
-B[1] => B[1].IN2
-B[2] => B[2].IN2
-B[3] => B[3].IN2
-B[4] => B[4].IN2
-B[5] => B[5].IN2
-B[6] => B[6].IN2
-B[7] => B[7].IN2
-B[8] => B[8].IN2
-B[9] => B[9].IN2
-B[10] => B[10].IN2
-B[11] => B[11].IN2
-B[12] => B[12].IN2
-B[13] => B[13].IN2
-B[14] => B[14].IN2
-B[15] => B[15].IN2
-D[0] => D[0].IN2
-D[1] => D[1].IN2
-D[2] => D[2].IN2
-D[3] => D[3].IN2
-D[4] => D[4].IN2
-D[5] => D[5].IN2
-D[6] => D[6].IN2
-D[7] => D[7].IN2
-D[8] => D[8].IN2
-D[9] => D[9].IN2
-D[10] => D[10].IN2
-D[11] => D[11].IN2
-D[12] => D[12].IN2
-D[13] => D[13].IN2
-D[14] => D[14].IN2
-D[15] => D[15].IN2
-signA => signA.IN2
-signC => signC.IN2
+B[0] => B[0].IN1
+B[1] => B[1].IN1
+B[2] => B[2].IN1
+B[3] => B[3].IN1
+B[4] => B[4].IN1
+B[5] => B[5].IN1
+B[6] => B[6].IN1
+B[7] => B[7].IN1
+B[8] => B[8].IN1
+B[9] => B[9].IN1
+B[10] => B[10].IN1
+B[11] => B[11].IN1
+B[12] => B[12].IN1
+B[13] => B[13].IN1
+B[14] => B[14].IN1
+B[15] => B[15].IN1
+D[0] => D[0].IN1
+D[1] => D[1].IN1
+D[2] => D[2].IN1
+D[3] => D[3].IN1
+D[4] => D[4].IN1
+D[5] => D[5].IN1
+D[6] => D[6].IN1
+D[7] => D[7].IN1
+D[8] => D[8].IN1
+D[9] => D[9].IN1
+D[10] => D[10].IN1
+D[11] => D[11].IN1
+D[12] => D[12].IN1
+D[13] => D[13].IN1
+D[14] => D[14].IN1
+D[15] => D[15].IN1
+signA => signA.IN3
+signC => signC.IN3
 out[0] <= outSelector:outGen.port5
 out[1] <= outSelector:outGen.port5
 out[2] <= outSelector:outGen.port5
@@ -7805,7 +8790,111 @@ out[30] <= outSelector:outGen.port5
 out[31] <= outSelector:outGen.port5
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|signInverter:invert2
+number[0] => out.DATAA
+number[0] => Add0.IN17
+number[1] => out.DATAA
+number[1] => Add0.IN16
+number[2] => out.DATAA
+number[2] => Add0.IN15
+number[3] => out.DATAA
+number[3] => Add0.IN14
+number[4] => out.DATAA
+number[4] => Add0.IN13
+number[5] => out.DATAA
+number[5] => Add0.IN12
+number[6] => out.DATAA
+number[6] => Add0.IN11
+number[7] => out.DATAA
+number[7] => Add0.IN10
+number[8] => out.DATAA
+number[8] => Add0.IN9
+number[9] => out.DATAA
+number[9] => Add0.IN8
+number[10] => out.DATAA
+number[10] => Add0.IN7
+number[11] => out.DATAA
+number[11] => Add0.IN6
+number[12] => out.DATAA
+number[12] => Add0.IN5
+number[13] => out.DATAA
+number[13] => Add0.IN4
+number[14] => out.DATAA
+number[14] => Add0.IN3
+number[15] => out.DATAA
+number[15] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|signInverter:invert3
+number[0] => out.DATAA
+number[0] => Add0.IN17
+number[1] => out.DATAA
+number[1] => Add0.IN16
+number[2] => out.DATAA
+number[2] => Add0.IN15
+number[3] => out.DATAA
+number[3] => Add0.IN14
+number[4] => out.DATAA
+number[4] => Add0.IN13
+number[5] => out.DATAA
+number[5] => Add0.IN12
+number[6] => out.DATAA
+number[6] => Add0.IN11
+number[7] => out.DATAA
+number[7] => Add0.IN10
+number[8] => out.DATAA
+number[8] => Add0.IN9
+number[9] => out.DATAA
+number[9] => Add0.IN8
+number[10] => out.DATAA
+number[10] => Add0.IN7
+number[11] => out.DATAA
+number[11] => Add0.IN6
+number[12] => out.DATAA
+number[12] => Add0.IN5
+number[13] => out.DATAA
+number[13] => Add0.IN4
+number[14] => out.DATAA
+number[14] => Add0.IN3
+number[15] => out.DATAA
+number[15] => Add0.IN2
+sign => Decoder0.IN0
+out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[3] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[4] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[5] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[6] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[7] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[8] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[9] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[10] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[11] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[12] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[13] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
+out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit
 B[0] => mulUnit:multiplicationUnit.operA[0]
 B[1] => mulUnit:multiplicationUnit.operA[1]
 B[2] => mulUnit:multiplicationUnit.operA[2]
@@ -7904,7 +8993,7 @@ out[62] <= to32extender:resultExtender.port1
 out[63] <= to32extender:resultExtender.port1
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -7975,7 +9064,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -8027,7 +9116,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -8079,7 +9168,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -8130,7 +9219,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -8181,7 +9270,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit|mul:multiplier
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -8280,7 +9369,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -8300,13 +9389,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|mulUnit:multiplicationUnit|xorgate:xorg
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|mulUnit:multiplicationUnit|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|low:lowUnit|to32extender:resultExtender
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|low:lowUnit|to32extender:resultExtender
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -8405,7 +9494,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit
 A[0] => A[0].IN1
 A[1] => A[1].IN1
 A[2] => A[2].IN1
@@ -8536,7 +9625,7 @@ out[62] <= bit32Adder:add.port2
 out[63] <= bit32Adder:add.port2
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|onebitExtender:extendA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendA
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -8571,7 +9660,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|onebitExtender:extendB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|onebitExtender:extendB
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -8606,7 +9695,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -8677,7 +9766,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -8729,7 +9818,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -8781,7 +9870,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -8832,7 +9921,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -8883,7 +9972,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1|mul:multiplier
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -8982,7 +10071,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1|overFlowDetector:over
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -9002,13 +10091,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit1|xorgate:xorg
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit1|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -9079,7 +10168,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -9131,7 +10220,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -9183,7 +10272,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -9234,7 +10323,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -9285,7 +10374,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2|mul:multiplier
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -9384,7 +10473,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2|overFlowDetector:over
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -9404,13 +10493,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|mulUnit:multiplicationUnit2|xorgate:xorg
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|mulUnit:multiplicationUnit2|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|to32extender:extendedAXD
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedAXD
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -9509,7 +10598,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|to32extender:extendedBXC
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|to32extender:extendedBXC
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -9608,7 +10697,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|mid:midUnit|bit32Adder:add
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|mid:midUnit|bit32Adder:add
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -9803,7 +10892,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit
 wholeA[0] => wholeA[0].IN1
 wholeA[1] => wholeA[1].IN1
 wholeA[2] => wholeA[2].IN1
@@ -9904,7 +10993,7 @@ sign <= mulUnit:multiplicationUnit.port6
 overflow <= mulUnit:multiplicationUnit.port5
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|onebitExtender:extendA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendA
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -9939,7 +11028,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|onebitExtender:extendB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|onebitExtender:extendB
 num[0] => out[0].DATAIN
 num[1] => out[1].DATAIN
 num[2] => out[2].DATAIN
@@ -9974,7 +11063,7 @@ out[14] <= num[14].DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit
 operA[0] => operA[0].IN1
 operA[1] => operA[1].IN1
 operA[2] => operA[2].IN1
@@ -10045,7 +11134,7 @@ overflow <= overFlowDetector:over.port1
 sign <= xorgate:xorg.port2
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertA
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -10097,7 +11186,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|signInverter:invertB
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -10149,7 +11238,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit|extender:extenderA
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderA
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -10200,7 +11289,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit|extender:extenderB
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|extender:extenderB
 oper[0] => out[0].DATAIN
 oper[1] => out[1].DATAIN
 oper[2] => out[2].DATAIN
@@ -10251,7 +11340,7 @@ out[30] <= <GND>
 out[31] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit|mul:multiplier
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|mul:multiplier
 OpA[0] => Mult0.IN31
 OpA[1] => Mult0.IN30
 OpA[2] => Mult0.IN29
@@ -10350,7 +11439,7 @@ result[30] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 result[31] <= Mult0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit|overFlowDetector:over
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|overFlowDetector:over
 OpA[0] => LessThan0.IN32
 OpA[1] => LessThan0.IN31
 OpA[2] => LessThan0.IN30
@@ -10370,13 +11459,13 @@ OpA[15] => LessThan0.IN17
 result <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|mulUnit:multiplicationUnit|xorgate:xorg
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|mulUnit:multiplicationUnit|xorgate:xorg
 signA => result.IN0
 signB => result.IN1
 result <= result.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|high:highUnit|to32extender:resultExtender
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|high:highUnit|to32extender:resultExtender
 number[0] => out[16].DATAIN
 number[1] => out[17].DATAIN
 number[2] => out[18].DATAIN
@@ -10475,7 +11564,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|leftShifter:highshifter
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|leftShifter:highshifter
 num[0] => out[16].DATAIN
 num[1] => out[17].DATAIN
 num[2] => out[18].DATAIN
@@ -10606,7 +11695,7 @@ out[62] <= num[46].DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= num[47].DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|rightShifter:lowShifter
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|rightShifter:lowShifter
 num[0] => ~NO_FANOUT~
 num[1] => ~NO_FANOUT~
 num[2] => ~NO_FANOUT~
@@ -10737,7 +11826,7 @@ out[62] <= <GND>
 out[63] <= <GND>
 
 
-|IIR|floatingpPointMult:mult3|bit32Adder:firstAdd
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|bit32Adder:firstAdd
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -10932,7 +12021,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|bit32Adder:secondAdd
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|bit32Adder:secondAdd
 operA[0] => Add0.IN64
 operA[1] => Add0.IN63
 operA[2] => Add0.IN62
@@ -11127,7 +12216,7 @@ out[62] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 out[63] <= Add0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|signInverter:invert
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|signInverter:invert
 number[0] => out.DATAA
 number[0] => Add0.IN17
 number[1] => out.DATAA
@@ -11179,7 +12268,7 @@ out[14] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[15] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|bit32OverflowDetector:detector
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|bit32OverflowDetector:detector
 number[0] => ~NO_FANOUT~
 number[1] => ~NO_FANOUT~
 number[2] => ~NO_FANOUT~
@@ -11247,7 +12336,7 @@ number[63] => LessThan0.IN17
 out <= LessThan0.DB_MAX_OUTPUT_PORT_TYPE
 
 
-|IIR|floatingpPointMult:mult3|outSelector:outGen
+|IIR|fixPointMult:mult3|floatingpPointMult:mult1|outSelector:outGen
 result[0] => ~NO_FANOUT~
 result[1] => ~NO_FANOUT~
 result[2] => ~NO_FANOUT~
@@ -11265,36 +12354,67 @@ result[13] => ~NO_FANOUT~
 result[14] => ~NO_FANOUT~
 result[15] => ~NO_FANOUT~
 result[16] => out.DATAA
+result[16] => Add0.IN33
 result[17] => out.DATAA
+result[17] => Add0.IN32
 result[18] => out.DATAA
+result[18] => Add0.IN31
 result[19] => out.DATAA
+result[19] => Add0.IN30
 result[20] => out.DATAA
+result[20] => Add0.IN29
 result[21] => out.DATAA
+result[21] => Add0.IN28
 result[22] => out.DATAA
+result[22] => Add0.IN27
 result[23] => out.DATAA
+result[23] => Add0.IN26
 result[24] => out.DATAA
+result[24] => Add0.IN25
 result[25] => out.DATAA
+result[25] => Add0.IN24
 result[26] => out.DATAA
+result[26] => Add0.IN23
 result[27] => out.DATAA
+result[27] => Add0.IN22
 result[28] => out.DATAA
+result[28] => Add0.IN21
 result[29] => out.DATAA
+result[29] => Add0.IN20
 result[30] => out.DATAA
+result[30] => Add0.IN19
 result[31] => out.DATAA
+result[31] => Add0.IN18
 result[32] => out.DATAA
+result[32] => Add0.IN17
 result[33] => out.DATAA
+result[33] => Add0.IN16
 result[34] => out.DATAA
+result[34] => Add0.IN15
 result[35] => out.DATAA
+result[35] => Add0.IN14
 result[36] => out.DATAA
+result[36] => Add0.IN13
 result[37] => out.DATAA
+result[37] => Add0.IN12
 result[38] => out.DATAA
+result[38] => Add0.IN11
 result[39] => out.DATAA
+result[39] => Add0.IN10
 result[40] => out.DATAA
+result[40] => Add0.IN9
 result[41] => out.DATAA
+result[41] => Add0.IN8
 result[42] => out.DATAA
+result[42] => Add0.IN7
 result[43] => out.DATAA
+result[43] => Add0.IN6
 result[44] => out.DATAA
+result[44] => Add0.IN5
 result[45] => out.DATAA
+result[45] => Add0.IN4
 result[46] => out.DATAA
+result[46] => Add0.IN3
 result[47] => ~NO_FANOUT~
 result[48] => ~NO_FANOUT~
 result[49] => ~NO_FANOUT~
@@ -11312,21 +12432,21 @@ result[60] => ~NO_FANOUT~
 result[61] => ~NO_FANOUT~
 result[62] => ~NO_FANOUT~
 result[63] => ~NO_FANOUT~
-signedResult[0] => out.DATAB
-signedResult[1] => out.DATAB
-signedResult[2] => out.DATAB
-signedResult[3] => out.DATAB
-signedResult[4] => out.DATAB
-signedResult[5] => out.DATAB
-signedResult[6] => out.DATAB
-signedResult[7] => out.DATAB
-signedResult[8] => out.DATAB
-signedResult[9] => out.DATAB
-signedResult[10] => out.DATAB
-signedResult[11] => out.DATAB
-signedResult[12] => out.DATAB
-signedResult[13] => out.DATAB
-signedResult[14] => out.DATAB
+signedResult[0] => ~NO_FANOUT~
+signedResult[1] => ~NO_FANOUT~
+signedResult[2] => ~NO_FANOUT~
+signedResult[3] => ~NO_FANOUT~
+signedResult[4] => ~NO_FANOUT~
+signedResult[5] => ~NO_FANOUT~
+signedResult[6] => ~NO_FANOUT~
+signedResult[7] => ~NO_FANOUT~
+signedResult[8] => ~NO_FANOUT~
+signedResult[9] => ~NO_FANOUT~
+signedResult[10] => ~NO_FANOUT~
+signedResult[11] => ~NO_FANOUT~
+signedResult[12] => ~NO_FANOUT~
+signedResult[13] => ~NO_FANOUT~
+signedResult[14] => ~NO_FANOUT~
 signedResult[15] => ~NO_FANOUT~
 overflowHigh => always0.IN0
 overflowShift => always0.IN1
@@ -11345,7 +12465,24 @@ sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
 sign => out.OUTPUTSELECT
-sign => out[31].DATAIN
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.OUTPUTSELECT
+sign => out.DATAB
 out[0] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[1] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[2] <= out.DB_MAX_OUTPUT_PORT_TYPE
@@ -11377,7 +12514,7 @@ out[27] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[28] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[29] <= out.DB_MAX_OUTPUT_PORT_TYPE
 out[30] <= out.DB_MAX_OUTPUT_PORT_TYPE
-out[31] <= sign.DB_MAX_OUTPUT_PORT_TYPE
+out[31] <= out.DB_MAX_OUTPUT_PORT_TYPE
 
 
 |IIR|fixedPointAdder:adder1
