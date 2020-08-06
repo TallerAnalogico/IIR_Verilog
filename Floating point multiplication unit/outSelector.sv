@@ -19,13 +19,17 @@ begin
 
 if(sign==1)
 
-out = {sign,signedResult[14:0],result[31:16]};
+if(signedResult!=0)
 
+out = {sign,signedResult[14:0],result[31:16]};
+else
+out = {16'b0000000000000000,result[31:16]};
 else
 out = {sign,result[46:16]};
 end
 ////////////////
 end
+
 
 
 
