@@ -19,6 +19,7 @@ assign a = -a_i;
 
 simpleRegister#(.N_BITS(N_BITS)) sRegister(
 								.clk(clk),
+								.reset(reset),
 								.data_i(w0),
 								.data_o(w1)
 								);
