@@ -11,228 +11,228 @@
 # 
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:17 on Aug 06,2020
+# Start time: 15:17:15 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv 
 # -- Compiling module fixedPointAdder
 # 
 # Top level modules:
 # 	fixedPointAdder
-# End time: 11:32:17 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:17 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv 
 # -- Compiling module xorgate
 # 
 # Top level modules:
 # 	xorgate
-# End time: 11:32:17 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:17 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv 
 # -- Compiling module mul
 # 
 # Top level modules:
 # 	mul
-# End time: 11:32:17 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:17 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv 
 # -- Compiling module overFlowDetector
 # 
 # Top level modules:
 # 	overFlowDetector
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:01
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mulUnit.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mulUnit.sv 
 # -- Compiling module mulUnit
 # 
 # Top level modules:
 # 	mulUnit
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/signInverter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/signInverter.sv 
 # -- Compiling module signInverter
 # 
 # Top level modules:
 # 	signInverter
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/extender.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/extender.sv 
 # -- Compiling module extender
 # 
 # Top level modules:
 # 	extender
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv 
 # -- Compiling module onebitExtender
 # 
 # Top level modules:
 # 	onebitExtender
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/to32extender.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/to32extender.sv 
 # -- Compiling module to32extender
 # 
 # Top level modules:
 # 	to32extender
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/high.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/high.sv 
 # -- Compiling module high
 # 
 # Top level modules:
 # 	high
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv 
 # -- Compiling module bit32Adder
 # 
 # Top level modules:
 # 	bit32Adder
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mid.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mid.sv 
 # -- Compiling module mid
 # 
 # Top level modules:
 # 	mid
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv 
 # -- Compiling module low
 # 
 # Top level modules:
 # 	low
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv 
 # -- Compiling module floatingpPointMult
 # 
 # Top level modules:
 # 	floatingpPointMult
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv 
 # -- Compiling module leftShifter
 # 
 # Top level modules:
 # 	leftShifter
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv 
 # -- Compiling module rightShifter
 # 
 # Top level modules:
 # 	rightShifter
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv 
 # -- Compiling module outSelector
 # 
 # Top level modules:
 # 	outSelector
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv 
 # -- Compiling module bit32OverflowDetector
 # 
 # Top level modules:
 # 	bit32OverflowDetector
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
 # -- Compiling module IIR
 # 
 # Top level modules:
 # 	IIR
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv 
 # -- Compiling module simpleRegister
 # 
 # Top level modules:
 # 	simpleRegister
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:16 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 # vlog -sv -work work +incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating\ point\ multiplication\ unit {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:18 on Aug 06,2020
+# Start time: 15:17:16 on Aug 06,2020
 # vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv 
 # -- Compiling module fixPointMult
 # 
 # Top level modules:
 # 	fixPointMult
-# End time: 11:32:18 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:17 on Aug 06,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 # 
 vlog -reportprogress 300 -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:32:34 on Aug 06,2020
+# Start time: 15:17:35 on Aug 06,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 11:32:34 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:17:35 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
 # vsim work.IIR_tb 
-# Start time: 11:32:39 on Aug 06,2020
+# Start time: 15:17:40 on Aug 06,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -256,291 +256,19 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-run
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 10002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_2k.txt". (Current address [10001], address range [0:10000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(41)
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
-run
-run
-add wave -position end sim:/IIR_tb/*
-run
-run
-run
-run
-run
-run
-run
-run
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(48)
-#    Time: 10010 ps  Iteration: 0  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 48
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:49:46 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# ** Error: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(34): (vlog-2730) Undefined variable: 'ounter_check'.
-# End time: 11:49:46 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 1, Warnings: 0
-# /opt/altera/18.1/modelsim_ase/linuxaloem/vlog failed.
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:49:59 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 11:49:59 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 11:50:02 on Aug 06,2020, Elapsed time: 0:17:23
-# Errors: 2, Warnings: 3, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 11:50:02 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
 add wave -position end sim:/IIR_tb/*
 run -all
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 25002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_2k.txt". (Current address [25001], address range [0:25000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(48)
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
-#    Time: 100 ns  Iteration: 1  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 11:56:16 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 11:56:17 on Aug 06,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 11:56:19 on Aug 06,2020, Elapsed time: 0:06:17
-# Errors: 0, Warnings: 3, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 11:56:19 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-run -all
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 25002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_5.txt". (Current address [25001], address range [0:25000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(48)
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
-#    Time: 100 ns  Iteration: 1  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:00:18 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:00:18 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:00:20 on Aug 06,2020, Elapsed time: 0:04:01
-# Errors: 0, Warnings: 3, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:00:20 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-run -all
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 250002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_5.txt". (Current address [250001], address range [0:250000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(48)
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
-#    Time: 1 us  Iteration: 1  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:09:52 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:09:52 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:09:57 on Aug 06,2020, Elapsed time: 0:09:37
-# Errors: 0, Warnings: 3, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:09:57 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-add wave -position end sim:/IIR_tb/*
-run -continue
-run -all
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
-#    Time: 1 us  Iteration: 1  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:12:07 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:12:07 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:12:10 on Aug 06,2020, Elapsed time: 0:02:13
-# Errors: 0, Warnings: 2, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:12:10 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-add wave -position end sim:/IIR_tb/*
-run -all
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 4002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/input/MS10K.txt". (Current address [4001], address range [0:4000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(55)
+#    Time: 6 ps  Iteration: 0  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
 #    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
 # 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:17:07 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:17:07 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
 vsim work.IIR_tb
-# End time: 12:17:10 on Aug 06,2020, Elapsed time: 0:05:00
-# Errors: 0, Warnings: 2, Suppressed Warnings: 10
+# End time: 15:21:43 on Aug 06,2020, Elapsed time: 0:04:03
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
 # vsim work.IIR_tb 
-# Start time: 12:17:10 on Aug 06,2020
+# Start time: 15:21:43 on Aug 06,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -564,40 +292,29 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
 add wave -position end sim:/IIR_tb/*
 run -all
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 4002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/input/MS10K.txt". (Current address [4001], address range [0:4000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(55)
+#    Time: 6 ps  Iteration: 0  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
 #    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
 # 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
 vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:19:09 on Aug 06,2020
+# Start time: 15:26:00 on Aug 06,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 12:19:09 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:19:12 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:19:12 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:26:01 on Aug 06,2020, Elapsed time: 0:00:01
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
-# End time: 12:19:15 on Aug 06,2020, Elapsed time: 0:02:05
-# Errors: 0, Warnings: 2, Suppressed Warnings: 10
+# End time: 15:26:03 on Aug 06,2020, Elapsed time: 0:04:20
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
 # vsim work.IIR_tb 
-# Start time: 12:19:15 on Aug 06,2020
+# Start time: 15:26:03 on Aug 06,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -621,30 +338,112 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/input/PY10K.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(55)
+#    Time: 6 ps  Iteration: 0  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
+#    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
+# A time value could not be extracted from the current line
+vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:30 on Aug 06,2020
+# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
+# -- Compiling module IIR_tb
+# 
+# Top level modules:
+# 	IIR_tb
+# End time: 15:28:30 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.IIR_tb
+# End time: 15:28:34 on Aug 06,2020, Elapsed time: 0:02:31
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+# vsim work.IIR_tb 
+# Start time: 15:28:34 on Aug 06,2020
+# Loading sv_std.std
+# Loading work.IIR_tb
+# Loading work.IIR
+# Loading work.simpleRegister
+# Loading work.fixPointMult
+# Loading work.floatingpPointMult
+# Loading work.signInverter
+# Loading work.low
+# Loading work.mulUnit
+# Loading work.extender
+# Loading work.mul
+# Loading work.overFlowDetector
+# Loading work.xorgate
+# Loading work.to32extender
+# Loading work.mid
+# Loading work.onebitExtender
+# Loading work.bit32Adder
+# Loading work.high
+# Loading work.leftShifter
+# Loading work.rightShifter
+# Loading work.bit32OverflowDetector
+# Loading work.outSelector
+# Loading work.fixedPointAdder
+vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:28:39 on Aug 06,2020
+# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
+# -- Compiling module IIR_tb
+# 
+# Top level modules:
+# 	IIR_tb
+# End time: 15:28:39 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.IIR_tb
+# End time: 15:28:41 on Aug 06,2020, Elapsed time: 0:00:07
+# Errors: 0, Warnings: 0
+# vsim work.IIR_tb 
+# Start time: 15:28:41 on Aug 06,2020
+# Loading sv_std.std
+# Loading work.IIR_tb
+# Loading work.IIR
+# Loading work.simpleRegister
+# Loading work.fixPointMult
+# Loading work.floatingpPointMult
+# Loading work.signInverter
+# Loading work.low
+# Loading work.mulUnit
+# Loading work.extender
+# Loading work.mul
+# Loading work.overFlowDetector
+# Loading work.xorgate
+# Loading work.to32extender
+# Loading work.mid
+# Loading work.onebitExtender
+# Loading work.bit32Adder
+# Loading work.high
+# Loading work.leftShifter
+# Loading work.rightShifter
+# Loading work.bit32OverflowDetector
+# Loading work.outSelector
+# Loading work.fixedPointAdder
 add wave -position end sim:/IIR_tb/*
 run -all
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
 #    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
 # 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
 vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:20:12 on Aug 06,2020
+# Start time: 15:47:09 on Aug 06,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 12:20:12 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 15:47:09 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
-# End time: 12:20:15 on Aug 06,2020, Elapsed time: 0:01:00
-# Errors: 0, Warnings: 2, Suppressed Warnings: 10
+# End time: 15:47:12 on Aug 06,2020, Elapsed time: 0:18:31
+# Errors: 0, Warnings: 0, Suppressed Warnings: 10
 # vsim work.IIR_tb 
-# Start time: 12:20:15 on Aug 06,2020
+# Start time: 15:47:12 on Aug 06,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -668,87 +467,123 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-run -all
-# ** Warning: (vsim-PLI-3407) Too many data words read on line 4002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/generado_20k.txt". (Current address [4001], address range [0:4000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(49)
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
-#    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:25:35 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:25:35 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:25:37 on Aug 06,2020, Elapsed time: 0:05:22
-# Errors: 0, Warnings: 3, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:25:37 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
 add wave -position end sim:/IIR_tb/*
 run -all
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(37)
+# ** Warning: (vsim-7) Failed to open readmem file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/input/MS10Ktavo.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(55)
+#    Time: 6 ps  Iteration: 0  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
 #    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
 # 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 37
-add wave -position end sim:/IIR_tb/DUT/sRegister/*
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
+run
+# ** Error (suppressible): (vsim-PLI-3085) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(33): $fwrite : Argument 1 is an unknown file descriptor.
+#    Time: 16004 ps  Iteration: 1  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
+#    Time: 16004 ps  Iteration: 1  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
+
+
+
+
+
+
+
+
+
+
+
+
+vsim work.IIR_tb
+# End time: 15:48:02 on Aug 06,2020, Elapsed time: 0:00:50
+# Errors: 1, Warnings: 1, Suppressed Warnings: 10
+# vsim work.IIR_tb 
+# Start time: 15:48:02 on Aug 06,2020
+# Loading sv_std.std
+# Loading work.IIR_tb
+# Loading work.IIR
+# Loading work.simpleRegister
+# Loading work.fixPointMult
+# Loading work.floatingpPointMult
+# Loading work.signInverter
+# Loading work.low
+# Loading work.mulUnit
+# Loading work.extender
+# Loading work.mul
+# Loading work.overFlowDetector
+# Loading work.xorgate
+# Loading work.to32extender
+# Loading work.mid
+# Loading work.onebitExtender
+# Loading work.bit32Adder
+# Loading work.high
+# Loading work.leftShifter
+# Loading work.rightShifter
+# Loading work.bit32OverflowDetector
+# Loading work.outSelector
+# Loading work.fixedPointAdder
+add wave -position end sim:/IIR_tb/*
+run -all
+# ** Warning: (vsim-7) Failed to open readmem file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/input/MS10Ktavo.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(55)
+#    Time: 6 ps  Iteration: 0  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
+#    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
+vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 15:48:58 on Aug 06,2020
+# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
+# -- Compiling module IIR_tb
+# 
+# Top level modules:
+# 	IIR_tb
+# End time: 15:48:58 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.IIR_tb
+# End time: 15:49:01 on Aug 06,2020, Elapsed time: 0:00:59
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+# vsim work.IIR_tb 
+# Start time: 15:49:01 on Aug 06,2020
+# Loading sv_std.std
+# Loading work.IIR_tb
+# Loading work.IIR
+# Loading work.simpleRegister
+# Loading work.fixPointMult
+# Loading work.floatingpPointMult
+# Loading work.signInverter
+# Loading work.low
+# Loading work.mulUnit
+# Loading work.extender
+# Loading work.mul
+# Loading work.overFlowDetector
+# Loading work.xorgate
+# Loading work.to32extender
+# Loading work.mid
+# Loading work.onebitExtender
+# Loading work.bit32Adder
+# Loading work.high
+# Loading work.leftShifter
+# Loading work.rightShifter
+# Loading work.bit32OverflowDetector
+# Loading work.outSelector
+# Loading work.fixedPointAdder
+run -all
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
+#    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
+add wave -position end sim:/IIR_tb/*
+run
+# ** Error (suppressible): (vsim-PLI-3085) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(33): $fwrite : Argument 1 is an unknown file descriptor.
+#    Time: 16004 ps  Iteration: 1  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
+#    Time: 16004 ps  Iteration: 1  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
 restart
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
-run
 run
 run
 run
@@ -758,419 +593,19 @@ run
 run
 vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:30:20 on Aug 06,2020
+# Start time: 16:01:26 on Aug 06,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 12:30:20 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 16:01:26 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
-# End time: 12:30:26 on Aug 06,2020, Elapsed time: 0:04:49
-# Errors: 0, Warnings: 4, Suppressed Warnings: 20
+# End time: 16:01:33 on Aug 06,2020, Elapsed time: 0:12:32
+# Errors: 1, Warnings: 0, Suppressed Warnings: 20
 # vsim work.IIR_tb 
-# Start time: 12:30:26 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-add wave -position end sim:/IIR_tb/*
-add wave -position end sim:/IIR_tb/DUT/sRegister/*
-run -continue
-run -continue
-run
-run
-run
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:31:49 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:31:49 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:31:53 on Aug 06,2020, Elapsed time: 0:01:27
-# Errors: 0, Warnings: 2, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:31:53 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-# ** Warning: (vsim-3017) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Too few port connections. Expected 4, found 3.
-#    Time: 0 ps  Iteration: 0  Instance: /IIR_tb/DUT/sRegister File: /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv
-# ** Warning: (vsim-3722) /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv(20): [TFMPC] - Missing connection for port 'reset'.
-add wave -position end sim:/IIR_tb/*
-add wave -position end sim:/IIR_tb/DUT/sRegister/*
-run
-run
-run
-run
-run
-run
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:54 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32Adder.sv 
-# -- Compiling module bit32Adder
-# 
-# Top level modules:
-# 	bit32Adder
-# End time: 12:32:54 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:54 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/bit32OverflowDetector.sv 
-# -- Compiling module bit32OverflowDetector
-# 
-# Top level modules:
-# 	bit32OverflowDetector
-# End time: 12:32:54 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/extender.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:54 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/extender.sv 
-# -- Compiling module extender
-# 
-# Top level modules:
-# 	extender
-# End time: 12:32:54 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:54 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixedPointAdder.sv 
-# -- Compiling module fixedPointAdder
-# 
-# Top level modules:
-# 	fixedPointAdder
-# End time: 12:32:54 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:54 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/fixPointMult.sv 
-# -- Compiling module fixPointMult
-# 
-# Top level modules:
-# 	fixPointMult
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:01
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/floatingpPointMult.sv 
-# -- Compiling module floatingpPointMult
-# 
-# Top level modules:
-# 	floatingpPointMult
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/high.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/high.sv 
-# -- Compiling module high
-# 
-# Top level modules:
-# 	high
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR.sv 
-# -- Compiling module IIR
-# 
-# Top level modules:
-# 	IIR
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/leftShifter.sv 
-# -- Compiling module leftShifter
-# 
-# Top level modules:
-# 	leftShifter
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/low.sv 
-# -- Compiling module low
-# 
-# Top level modules:
-# 	low
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mid.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mid.sv 
-# -- Compiling module mid
-# 
-# Top level modules:
-# 	mid
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mul.sv 
-# -- Compiling module mul
-# 
-# Top level modules:
-# 	mul
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mulUnit.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/mulUnit.sv 
-# -- Compiling module mulUnit
-# 
-# Top level modules:
-# 	mulUnit
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/onebitExtender.sv 
-# -- Compiling module onebitExtender
-# 
-# Top level modules:
-# 	onebitExtender
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/outSelector.sv 
-# -- Compiling module outSelector
-# 
-# Top level modules:
-# 	outSelector
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/overFlowDetector.sv 
-# -- Compiling module overFlowDetector
-# 
-# Top level modules:
-# 	overFlowDetector
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/rightShifter.sv 
-# -- Compiling module rightShifter
-# 
-# Top level modules:
-# 	rightShifter
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/signInverter.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/signInverter.sv 
-# -- Compiling module signInverter
-# 
-# Top level modules:
-# 	signInverter
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/simpleRegister.sv 
-# -- Compiling module simpleRegister
-# 
-# Top level modules:
-# 	simpleRegister
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/to32extender.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/to32extender.sv 
-# -- Compiling module to32extender
-# 
-# Top level modules:
-# 	to32extender
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vlog -sv -work work {+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit} {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:32:55 on Aug 06,2020
-# vlog -reportprogress 300 -sv -work work "+incdir+/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit" /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/xorgate.sv 
-# -- Compiling module xorgate
-# 
-# Top level modules:
-# 	xorgate
-# End time: 12:32:55 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:32:59 on Aug 06,2020, Elapsed time: 0:01:06
-# Errors: 0, Warnings: 2, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:32:59 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-add wave -position end sim:/IIR_tb/*
-add wave -position end sim:/IIR_tb/DUT/sRegister/*
-run
-run
-run
-run
-run
-run -all
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
-#    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:35:03 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:35:03 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:35:07 on Aug 06,2020, Elapsed time: 0:02:08
-# Errors: 0, Warnings: 0, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:35:07 on Aug 06,2020
-# Loading sv_std.std
-# Loading work.IIR_tb
-# Loading work.IIR
-# Loading work.simpleRegister
-# Loading work.fixPointMult
-# Loading work.floatingpPointMult
-# Loading work.signInverter
-# Loading work.low
-# Loading work.mulUnit
-# Loading work.extender
-# Loading work.mul
-# Loading work.overFlowDetector
-# Loading work.xorgate
-# Loading work.to32extender
-# Loading work.mid
-# Loading work.onebitExtender
-# Loading work.bit32Adder
-# Loading work.high
-# Loading work.leftShifter
-# Loading work.rightShifter
-# Loading work.bit32OverflowDetector
-# Loading work.outSelector
-# Loading work.fixedPointAdder
-run -all
-# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
-#    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
-# 1
-# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
-vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
-# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:38:38 on Aug 06,2020
-# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
-# -- Compiling module IIR_tb
-# 
-# Top level modules:
-# 	IIR_tb
-# End time: 12:38:38 on Aug 06,2020, Elapsed time: 0:00:00
-# Errors: 0, Warnings: 0
-vsim work.IIR_tb
-# End time: 12:38:41 on Aug 06,2020, Elapsed time: 0:03:34
-# Errors: 0, Warnings: 0, Suppressed Warnings: 10
-# vsim work.IIR_tb 
-# Start time: 12:38:41 on Aug 06,2020
+# Start time: 16:01:33 on Aug 06,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -1214,19 +649,19 @@ run -all
 # Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
 vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
 # Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
-# Start time: 12:39:57 on Aug 06,2020
+# Start time: 16:03:10 on Aug 06,2020
 # vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
 # -- Compiling module IIR_tb
 # 
 # Top level modules:
 # 	IIR_tb
-# End time: 12:39:57 on Aug 06,2020, Elapsed time: 0:00:00
+# End time: 16:03:10 on Aug 06,2020, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0
 vsim work.IIR_tb
-# End time: 12:40:00 on Aug 06,2020, Elapsed time: 0:01:19
+# End time: 16:03:13 on Aug 06,2020, Elapsed time: 0:01:40
 # Errors: 0, Warnings: 0, Suppressed Warnings: 10
 # vsim work.IIR_tb 
-# Start time: 12:40:00 on Aug 06,2020
+# Start time: 16:03:13 on Aug 06,2020
 # Loading sv_std.std
 # Loading work.IIR_tb
 # Loading work.IIR
@@ -1250,8 +685,57 @@ vsim work.IIR_tb
 # Loading work.bit32OverflowDetector
 # Loading work.outSelector
 # Loading work.fixedPointAdder
+add wave -position end sim:/IIR_tb/*
 run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/input/MS10KTavo.txt". (Current address [1001], address range [0:1000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(54)
+#    Time: 6 ps  Iteration: 0  Instance: /IIR_tb
 # ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
-#    Time: 16 ns  Iteration: 1  Instance: /IIR_tb
-# End time: 12:40:04 on Aug 06,2020, Elapsed time: 0:00:04
-# Errors: 0, Warnings: 0, Suppressed Warnings: 10
+#    Time: 4 ns  Iteration: 1  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
+vlog -work work {/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv}
+# Model Technology ModelSim - Intel FPGA Edition vlog 10.5b Compiler 2016.10 Oct  5 2016
+# Start time: 16:18:47 on Aug 06,2020
+# vlog -reportprogress 300 -work work /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv 
+# -- Compiling module IIR_tb
+# 
+# Top level modules:
+# 	IIR_tb
+# End time: 16:18:47 on Aug 06,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+vsim work.IIR_tb
+# End time: 16:18:52 on Aug 06,2020, Elapsed time: 0:15:39
+# Errors: 0, Warnings: 1, Suppressed Warnings: 10
+# vsim work.IIR_tb 
+# Start time: 16:18:52 on Aug 06,2020
+# Loading sv_std.std
+# Loading work.IIR_tb
+# Loading work.IIR
+# Loading work.simpleRegister
+# Loading work.fixPointMult
+# Loading work.floatingpPointMult
+# Loading work.signInverter
+# Loading work.low
+# Loading work.mulUnit
+# Loading work.extender
+# Loading work.mul
+# Loading work.overFlowDetector
+# Loading work.xorgate
+# Loading work.to32extender
+# Loading work.mid
+# Loading work.onebitExtender
+# Loading work.bit32Adder
+# Loading work.high
+# Loading work.leftShifter
+# Loading work.rightShifter
+# Loading work.bit32OverflowDetector
+# Loading work.outSelector
+# Loading work.fixedPointAdder
+add wave -position end sim:/IIR_tb/*
+run -all
+# ** Warning: (vsim-PLI-3407) Too many data words read on line 1002 of file "/home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Tools/input/MS10KTavo.txt". (Current address [1001], address range [0:1000])    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(54)
+#    Time: 6 ps  Iteration: 0  Instance: /IIR_tb
+# ** Note: $finish    : /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv(38)
+#    Time: 4 ns  Iteration: 1  Instance: /IIR_tb
+# 1
+# Break in Module IIR_tb at /home/gsegura/Documents/TEC/2020/analogico/ProyectoFinal/IIR_Verilog/Floating point multiplication unit/IIR_tb.sv line 38
